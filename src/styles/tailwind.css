@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core System Colors */
+    --color-background: #FAFAFA; /* gray-50 */
+    --color-foreground: #1A1A1A; /* gray-900 */
+    --color-border: #E5E5E5; /* gray-200 */
+    --color-input: #F5F5F5; /* gray-100 */
+    --color-ring: #D4AF37; /* gold */
+    
+    /* Card Colors */
+    --color-card: #F5F5F5; /* gray-100 */
+    --color-card-foreground: #1A1A1A; /* gray-900 */
+    --color-popover: #FFFFFF; /* white */
+    --color-popover-foreground: #1A1A1A; /* gray-900 */
+    
+    /* Muted Colors */
+    --color-muted: #F5F5F5; /* gray-100 */
+    --color-muted-foreground: #666666; /* gray-500 */
+    
+    /* Brand Primary Colors */
+    --color-primary: #2C2C2C; /* charcoal */
+    --color-primary-foreground: #FFFFFF; /* white */
+    
+    /* Brand Secondary Colors */
+    --color-secondary: #8B7355; /* warm-brown */
+    --color-secondary-foreground: #FFFFFF; /* white */
+    
+    /* Accent Colors */
+    --color-accent: #D4AF37; /* brass-gold */
+    --color-accent-foreground: #1A1A1A; /* gray-900 */
+    
+    /* Status Colors */
+    --color-destructive: #C62828; /* red-700 */
+    --color-destructive-foreground: #FFFFFF; /* white */
+    --color-success: #2E7D32; /* green-700 */
+    --color-success-foreground: #FFFFFF; /* white */
+    --color-warning: #F57C00; /* orange-600 */
+    --color-warning-foreground: #FFFFFF; /* white */
+    --color-error: #C62828; /* red-700 */
+    --color-error-foreground: #FFFFFF; /* white */
+    
+    /* Additional Brand Colors */
+    --color-surface: #F5F5F5; /* gray-100 */
+    --color-text-primary: #1A1A1A; /* gray-900 */
+    --color-text-secondary: #666666; /* gray-500 */
+    --color-cta: #B8860B; /* dark-gold */
+    --color-cta-foreground: #FFFFFF; /* white */
+  }
+
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+  }
+  
+  .font-headline {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .font-accent {
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+@layer components {
+.btn-primary  {
+    @apply bg-accent text-accent-foreground transition-all duration-300 ease-out;
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.25);
+  }
+  
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(212, 175, 55, 0.35);
+  }
+  
+  .card-elevated {
+    box-shadow: 0 4px 12px rgba(44, 44, 44, 0.15);
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .card-elevated:hover {
+    box-shadow: 0 8px 24px rgba(44, 44, 44, 0.2);
+    transform: translateY(-4px);
+  }
+  
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .border-brand {
+    border-color: var(--color-secondary);
+    border-width: 2px;
+  }
+  
+  .backdrop-blur-brand {
+    backdrop-filter: blur(10px);
+    background: rgba(250, 250, 250, 0.9);
+  }
+}
+
+@layer utilities {
+  .animation-delay-100 {
+    animation-delay: 0.1s;
+  }
+  
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  
+  .animation-delay-300 {
+    animation-delay: 0.3s;
+  }
+  
+  .transform-gpu {
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .will-change-transform {
+    will-change: transform;
+  }
+}
