@@ -12,7 +12,7 @@ const NeighborhoodGuide = () => {
       rating: 4.8,
       description: "Historic café serving traditional Spanish coffee and pastries since 1887",
       image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      perks: "10% discount for BarberCraft clients",
+      perks: "10% discount for The Good Style clients",
       hours: "7:00 AM - 10:00 PM",
       icon: "Coffee"
     },

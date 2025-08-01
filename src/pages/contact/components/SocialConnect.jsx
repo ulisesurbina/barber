@@ -6,46 +6,46 @@ const SocialConnect = () => {
   const socialPlatforms = [
     {
       name: "Instagram",
-      handle: "@barbercraftstudio",
+      handle: "@thegoodstyle",
       description: "Transformaciones diarias, técnicas de corte y contenido behind-the-scenes",
       followers: "12.5K",
       icon: "Instagram",
       color: "bg-gradient-to-r from-purple-500 to-pink-500",
-      url: "https://instagram.com/barbercraftstudio"
+      url: "https://instagram.com/thegoodstyle"
     },
     {
       name: "Facebook",
-      handle: "BarberCraft Studio Madrid",
+      handle: "The Good Style",
       description: "Comunidad, eventos especiales y testimonios de clientes satisfechos",
       followers: "8.2K",
       icon: "Facebook",
       color: "bg-blue-600",
-      url: "https://facebook.com/barbercraftstudio"
+      url: "https://facebook.com/thegoodstyle"
     },
     {
       name: "TikTok",
-      handle: "@barbercraftstudio",
+      handle: "@thegoodstyle",
       description: "Tutoriales rápidos, transformaciones y tendencias de estilo masculino",
       followers: "25.8K",
       icon: "Music",
       color: "bg-black",
-      url: "https://tiktok.com/@barbercraftstudio"
+      url: "https://tiktok.com/@thegoodstyle"
     },
     {
       name: "YouTube",
-      handle: "BarberCraft Studio",
+      handle: "The Good Style",
       description: "Tutoriales completos, entrevistas y documentales de barbería tradicional",
       followers: "4.1K",
       icon: "Play",
       color: "bg-red-600",
-      url: "https://youtube.com/barbercraftstudio"
+      url: "https://youtube.com/thegoodstyle"
     }
   ];
 
   const communityFeatures = [
     {
       title: "Galería de Transformaciones",
-      description: "Comparte tu antes y después usando #BarberCraftTransformation",
+      description: "Comparte tu antes y después usando #TheGoodStyle",
       icon: "Camera",
       action: "Ver Galería"
     },

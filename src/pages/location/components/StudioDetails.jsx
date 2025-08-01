@@ -19,7 +19,7 @@ const StudioDetails = () => {
     {
       icon: "Mail",
       label: "Email",
-      value: "hola@barbercraftstudio.es",
+      value: "hola@thegoodstyle.com",
       subValue: "General inquiries & bookings"
     },
     {
@@ -51,7 +51,7 @@ const StudioDetails = () => {
             Studio Information
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Everything you need to know for your visit to BarberCraft Studio
+            Everything you need to know for your visit to The Good Style
           </p>
         </div>
 

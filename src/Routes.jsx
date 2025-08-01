@@ -15,7 +15,6 @@ const Routes = () => {
       <ErrorBoundary>
       <ScrollToTop />
       <RouterRoutes>
-        {/* Define your route here */}
         <Route path="/" element={<AboutPage />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />

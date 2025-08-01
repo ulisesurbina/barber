@@ -6,46 +6,46 @@ import Icon from '../../../components/AppIcon';
 const CraftsmanshipSection = () => {
   const craftsmanshipStandards = [
     {
-      icon: "Target",
-      title: "Precision Excellence",
-      description: "Every cut measured to perfection using traditional techniques refined over generations.",
-      metrics: "±1mm accuracy"
+      ícono: "Objetivo",
+      título: "Excelencia en Precisión",
+      descripción: "Cada corte medido a la perfección utilizando técnicas tradicionales perfeccionadas durante generaciones.",
+      métricas: "Precisión de ±1 mm"
     },
     {
-      icon: "Wrench",
-      title: "Premium Tools",
-      description: "Hand-forged scissors from Japan, straight razors from Germany, and brushes from England.",
-      metrics: "Professional grade"
+      ícono: "Llave inglesa",
+      título: "Herramientas premium",
+      descripción: "Tijeras forjadas a mano de Japón, navajas de afeitar de Alemania y cepillos de Inglaterra.",
+      métricas: "Calidad profesional"
     },
     {
-      icon: "Clock",
-      title: "Time Investment",
-      description: "No rushed services - each appointment receives the full attention and time it deserves.",
-      metrics: "45-90 minutes"
+      ícono: "Reloj",
+      título: "Inversión de tiempo",
+      descripción: "Servicios sin prisas: cada cita recibe la atención y el tiempo que merece.",
+      métricas: "45-90 minutos"
     },
     {
-      icon: "Shield",
-      title: "Quality Assurance",
-      description: "Multiple quality checks ensure every client leaves completely satisfied with their experience.",
-      metrics: "100% satisfaction"
+      ícono: "Escudo",
+      título: "Control de calidad",
+      descripción: "Múltiples controles de calidad garantizan que cada cliente quede completamente satisfecho con su experiencia.",
+      métricas: "100 % de satisfacción"
     }
   ];
 
   const toolsShowcase = [
     {
-      name: "Japanese Steel Scissors",
-      description: "Hand-forged precision cutting tools",
-      image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      nombre: "Tijeras de acero japonesas",
+      descripción: "Herramientas de corte de precisión forjadas a mano",
+      imagen: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
-      name: "Straight Razor Collection",
-      description: "Traditional German craftsmanship",
-      image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      nombre: "Colección de navajas de afeitar",
+      descripción: "Artesanía tradicional alemana",
+      imagen: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
-      name: "Natural Bristle Brushes",
-      description: "English badger hair brushes",
-      image: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      nombre: "Cepillos de cerdas naturales",
+      descripción: "Cepillos de pelo de tejón inglés",
+      imagen: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
   ];
 
@@ -61,15 +61,14 @@ const CraftsmanshipSection = () => {
         >
           <div className="flex items-center justify-center space-x-3 mb-4">
             <div className="w-12 h-0.5 bg-accent"></div>
-            <span className="font-accent text-accent text-lg">Our Standards</span>
+            <span className="font-accent text-accent text-lg">Nuestros estándares</span>
             <div className="w-12 h-0.5 bg-accent"></div>
           </div>
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary mb-4">
-            Craftsmanship Standards
+            Estándares de The Good Styles
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our commitment to excellence is reflected in every aspect of our service, 
-            from the tools we use to the techniques we employ.
+            Nuestro compromiso con la excelencia se refleja en cada aspecto de nuestro servicio, desde las herramientas que utilizamos hasta las técnicas que empleamos.
           </p>
         </motion.div>
 
@@ -114,15 +113,13 @@ const CraftsmanshipSection = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-0.5 bg-accent"></div>
-                <span className="font-accent text-accent text-lg">Premium Tools</span>
+                <span className="font-accent text-accent text-lg">Herramientas premium</span>
               </div>
               <h3 className="font-headline text-3xl font-bold text-primary">
-                Master's Arsenal
+                Arsenal del Maestro
               </h3>
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
-                We invest in the finest tools from around the world because exceptional 
-                results require exceptional equipment. Each tool is carefully selected, 
-                maintained, and mastered by our craftsmen.
+                Invertimos en las mejores herramientas de todo el mundo porque los resultados excepcionales requieren equipos excepcionales. Cada herramienta es cuidadosamente seleccionada, mantenida y perfeccionada por nuestros artesanos.
               </p>
             </div>
 
@@ -160,11 +157,10 @@ const CraftsmanshipSection = () => {
                 <Icon name="Info" size={20} color="var(--color-accent)" className="mt-0.5" />
                 <div>
                   <p className="font-body text-primary font-medium mb-2">
-                    Tool Maintenance Excellence
+                    Excelencia en mantenimiento de herramientas
                   </p>
                   <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                    Our tools are professionally sharpened weekly, sanitized between every use, 
-                    and replaced at the first sign of wear to ensure consistent performance.
+                    Nuestras herramientas se afilan profesionalmente semanalmente, se desinfectan entre cada uso y se reemplazan a la primera señal de desgaste para garantizar un rendimiento constante.
                   </p>
                 </div>
               </div>

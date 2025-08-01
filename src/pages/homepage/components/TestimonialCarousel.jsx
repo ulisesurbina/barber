@@ -56,7 +56,7 @@ const TestimonialCarousel = () => {
       beforeImage: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=400&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
       rating: 5,
-      quote: `The team at BarberCraft Studio doesn't just provide a service, they create an experience. Every visit leaves me feeling refreshed, confident, and ready to take on any challenge.`,
+      quote: `The team at The Good Style doesn't just provide a service, they create an experience. Every visit leaves me feeling refreshed, confident, and ready to take on any challenge.`,
       service: "Classic Cut & Shave",
       date: "1 week ago",
       confidence: "Feeling like a new person"

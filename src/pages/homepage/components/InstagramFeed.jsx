@@ -12,11 +12,11 @@ const InstagramFeed = () => {
     {
       id: 1,
       image: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=400&fit=crop",
-      caption: "Fresh fade and beard trim for our client Michael. That confidence boost is everything! ✂️ #BarberCraftStudio #FreshCut",
+      caption: "Fresh fade and beard trim for our client Michael. That confidence boost is everything! ✂️ #TheGoodStyle #FreshCut",
       likes: 234,
       comments: 18,
       timestamp: "2 hours ago",
-      hashtags: ["#BarberCraftStudio", "#FreshCut", "#BeardTrim", "#Confidence"],
+      hashtags: ["#TheGoodStyle", "#FreshCut", "#BeardTrim", "#Confidence"],
       barber: "Marcus Rodriguez"
     },
     {
@@ -118,7 +118,7 @@ const InstagramFeed = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-accent/10 rounded-full mb-6">
             <Icon name="Instagram" size={20} className="text-accent mr-2" />
-            <span className="text-accent font-body font-medium">@BarberCraftStudio</span>
+            <span className="text-accent font-body font-medium">@TheGoodStyle</span>
           </div>
           
           <h2 className="font-headline text-4xl md:text-6xl font-bold text-primary mb-6">
@@ -127,7 +127,7 @@ const InstagramFeed = () => {
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             Follow our journey on Instagram to see daily transformations, behind-the-scenes content, 
-            and the artistry that defines BarberCraft Studio.
+            and the artistry that defines The Good Style.
           </p>
 
           <Button
@@ -137,7 +137,7 @@ const InstagramFeed = () => {
             iconName="Instagram"
             iconPosition="left"
           >
-            Follow @BarberCraftStudio
+            Follow @TheGoodStyle
           </Button>
         </motion.div>
 
@@ -248,7 +248,7 @@ const InstagramFeed = () => {
                     <Icon name="Instagram" size={20} color="white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-primary">@BarberCraftStudio</h4>
+                    <h4 className="font-semibold text-primary">@TheGoodStyle</h4>
                     <p className="text-sm text-muted-foreground">{selectedPost?.timestamp}</p>
                   </div>
                 </div>

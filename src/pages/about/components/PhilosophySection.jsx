@@ -48,7 +48,7 @@ const PhilosophySection = () => {
                 The Art of Masculine Grooming
               </h2>
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
-                At BarberCraft Studio, we believe that grooming is a ritual of transformation. 
+                At The Good Style, we believe that grooming is a ritual of transformation. 
                 Each visit is an investment in personal excellence, where traditional techniques 
                 meet contemporary style to create an experience that transcends the ordinary.
               </p>

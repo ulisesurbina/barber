@@ -139,7 +139,7 @@ const InteractiveMap = () => {
                   width="100%"
                   height="100%"
                   loading="lazy"
-                  title="BarberCraft Studio Location"
+                  title="The Good Style Website Location"
                   referrerPolicy="no-referrer-when-downgrade"
                   src="https://www.google.com/maps?q=40.4168,-3.7038&z=16&output=embed"
                   className="border-0"
@@ -149,7 +149,7 @@ const InteractiveMap = () => {
                 <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm rounded-lg p-3 shadow-lg">
                   <div className="flex items-center space-x-2">
                     <div className="w-3 h-3 bg-accent rounded-full animate-pulse"></div>
-                    <span className="font-body font-medium text-primary text-sm">BarberCraft Studio</span>
+                    <span className="font-body font-medium text-primary text-sm">The Good Style</span>
                   </div>
                   <p className="text-xs text-muted-foreground mt-1">456 Artisan Boulevard</p>
                 </div>

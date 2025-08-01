@@ -21,10 +21,10 @@ const ContactMethods = () => {
       description: "Envíanos tus consultas detalladas y te responderemos en 24h",
       icon: "Mail",
       action: "Enviar Email",
-      contact: "info@barbercraftstudio.es",
+      contact: "info@thegoodstyle.com",
       available: "Respuesta en 24h",
       color: "bg-blue-500",
-      href: "mailto:info@barbercraftstudio.es"
+      href: "mailto:info@thegoodstyle.com"
     },
     {
       id: 3,

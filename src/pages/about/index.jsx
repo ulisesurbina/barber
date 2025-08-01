@@ -18,13 +18,13 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - BarberCraft Studio | Master Craftsmen & Heritage</title>
+        <title>Sobre Nosotros - The Good Style</title>
         <meta 
           name="description" 
-          content="Discover the story behind BarberCraft Studio - where traditional barbering artistry meets contemporary style. Meet our master barbers and learn about our commitment to excellence." 
+          content="Discover the story behind The Good Style - where traditional barbering artistry meets contemporary style. Meet our master barbers and learn about our commitment to excellence." 
         />
         <meta name="keywords" content="about barbershop, master barbers, traditional barbering, grooming artistry, barbering heritage, professional barbers" />
-        <meta property="og:title" content="About BarberCraft Studio - Master Craftsmen & Heritage" />
+        <meta property="og:title" content="About The Good Style Website" />
         <meta property="og:description" content="Learn about our journey from traditional barbering to modern craftsmanship. Meet our certified master barbers and discover our philosophy." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="/about" />

@@ -10,7 +10,7 @@ const VirtualTour = () => {
     {
       id: 0,
       title: "Studio Entrance",
-      description: "Welcome to BarberCraft Studio - where tradition meets modern sophistication",
+      description: "Welcome to The Good Style- where tradition meets modern sophistication",
       image: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
       highlights: ["Vintage signage", "Welcoming atmosphere", "Street-level access"]
     },
@@ -177,7 +177,7 @@ const VirtualTour = () => {
                 iconName="Calendar"
                 iconPosition="left"
               >
-                Book Your Visit
+                Reserva tu visita
               </Button>
               <Button 
                 variant="outline" 
@@ -185,7 +185,7 @@ const VirtualTour = () => {
                 iconName="Phone"
                 iconPosition="left"
               >
-                Schedule Consultation
+                Programar consulta
               </Button>
               <Button 
                 variant="outline" 
@@ -193,7 +193,7 @@ const VirtualTour = () => {
                 iconName="Share2"
                 iconPosition="left"
               >
-                Share Tour
+                Compartir Tour
               </Button>
             </div>
           </div>
@@ -203,7 +203,7 @@ const VirtualTour = () => {
             <div className="bg-card rounded-xl p-6 shadow-lg">
               <h3 className="font-headline text-xl font-semibold text-primary mb-6 flex items-center">
                 <Icon name="Star" size={20} className="mr-2 text-accent" />
-                Studio Features
+                Características del estudio
               </h3>
               
               <div className="space-y-4">

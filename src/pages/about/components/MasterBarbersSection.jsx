@@ -144,7 +144,7 @@ const MasterBarbersSection = () => {
                   <div className="overflow-hidden rounded-2xl">
                     <Image
                       src={currentBarber?.image}
-                      alt={`${currentBarber?.name} - Master Barber at BarberCraft Studio`}
+                      alt={`${currentBarber?.name} - Master Barber at The Good Style`}
                       className="w-full h-80 object-cover"
                     />
                   </div>

@@ -75,7 +75,7 @@ const MasterBarbersPreview = () => {
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto">
             Our team of master craftsmen brings decades of combined experience, each with their own 
-            signature techniques and specialties that define the BarberCraft Studio experience.
+            signature techniques and specialties that define The Good Style experience.
           </p>
         </motion.div>
 
@@ -221,11 +221,10 @@ const MasterBarbersPreview = () => {
         >
           <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 md:p-12 text-white">
             <h3 className="font-headline text-3xl md:text-4xl font-bold mb-4">
-              Meet Your Perfect Match
+              Conoce a tu pareja perfecta
             </h3>
             <p className="font-body text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
-              Each of our master barbers brings unique expertise and personality. 
-              Discover who's the perfect fit for your style and book your consultation today.
+              Cada uno de nuestros maestros barberos aporta una experiencia y personalidad únicas. Descubre quién se adapta perfectamente a tu estilo y reserva tu consulta hoy mismo.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/about">
@@ -236,7 +235,7 @@ const MasterBarbersPreview = () => {
                   iconName="Users"
                   iconPosition="left"
                 >
-                  Meet All Our Barbers
+                  Conozca a todos nuestros barberos
                 </Button>
               </Link>
               <Button
@@ -246,7 +245,7 @@ const MasterBarbersPreview = () => {
                 iconName="MessageCircle"
                 iconPosition="left"
               >
-                Schedule Consultation
+                Programar consulta
               </Button>
             </div>
           </div>

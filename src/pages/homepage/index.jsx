@@ -13,11 +13,11 @@ const Homepage = () => {
   return (
     <>
       <Helmet>
-        <title>BarberCraft Studio - Craftsmanship in Every Cut | Premium Barbershop Experience</title>
-        <meta name="description" content="Experience the art of traditional barbering at BarberCraft Studio. Master barbers, precision cuts, straight razor shaves, and gentleman's grooming in a luxury setting." />
+        <title>The Good Style</title>
+        <meta name="description" content="Experience the art of traditional barbering at The Good Style. Master barbers, precision cuts, straight razor shaves, and gentleman's grooming in a luxury setting." />
         <meta name="keywords" content="barbershop, barber, haircut, shave, grooming, men's style, traditional barbering, straight razor, beard trim" />
-        <meta property="og:title" content="BarberCraft Studio - Craftsmanship in Every Cut" />
-        <meta property="og:description" content="Where traditional barbering meets modern sophistication. Book your transformation today." />
+        <meta property="og:title" content="The Good Style" />
+        <meta property="og:description" content="Where traditional barbering meets modern sophistication. Reserva tu transformación hoy." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="/homepage" />
       </Helmet>
@@ -45,7 +45,7 @@ const Homepage = () => {
                     <span className="text-white font-bold text-xl">BC</span>
                   </div>
                   <div>
-                    <h3 className="font-headline text-2xl font-bold">BarberCraft Studio</h3>
+                    <h3 className="font-headline text-2xl font-bold">The Good Style</h3>
                     <p className="font-accent text-accent">Where Craft Meets Style</p>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ const Homepage = () => {
                   </div>
                   <div>
                     <p className="text-accent font-medium">(555) 123-4567</p>
-                    <p>info@barbercraftstudio.com</p>
+                    <p>info@thegoodstyle.com</p>
                   </div>
                   <div>
                     <p className="font-medium">Hours:</p>
@@ -105,7 +105,7 @@ const Homepage = () => {
 
             <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-300 font-body text-sm">
-                © {new Date()?.getFullYear()} BarberCraft Studio. All rights reserved.
+                © {new Date()?.getFullYear()} The Good Style. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#" className="text-gray-300 hover:text-accent text-sm transition-colors">Privacy Policy</a>

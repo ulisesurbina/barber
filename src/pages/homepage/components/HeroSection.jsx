@@ -75,9 +75,9 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight"
             >
-              Craftsmanship
+              Artesania
               <br />
-              <span className="text-gradient-gold">in Every Cut</span>
+              <span className="text-gradient-gold">en cada corte</span>
             </motion.h1>
 
             <motion.p
@@ -86,7 +86,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="font-body text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl leading-relaxed"
             >
-              Where traditional barbering meets modern sophistication. Experience the ritual of grooming as an art form, crafted by master barbers who understand that great style is both heritage and innovation.
+              Donde la barbería tradicional se fusiona con la sofisticación moderna. Experimente el ritual del cuidado personal como una forma de arte, creado por maestros barberos que entienden que un gran estilo es sinónimo de tradición e innovación.
             </motion.p>
 
             <motion.div
@@ -102,7 +102,7 @@ const HeroSection = () => {
                 iconName="Calendar"
                 iconPosition="left"
               >
-                Book Your Experience
+                Reserva tu experiencia
               </Button>
               
               <Button 
@@ -112,7 +112,7 @@ const HeroSection = () => {
                 iconName="Play"
                 iconPosition="left"
               >
-                Watch Our Craft
+                Mira nuestro trabajo
               </Button>
             </motion.div>
 
@@ -125,15 +125,15 @@ const HeroSection = () => {
             >
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">500+</div>
-                <div className="text-sm text-gray-300 font-body">Monthly Transformations</div>
+                <div className="text-sm text-gray-300 font-body">Transformaciones mensuales</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">98%</div>
-                <div className="text-sm text-gray-300 font-body">Client Retention</div>
+                <div className="text-sm text-gray-300 font-body">Retención de clientes</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">15+</div>
-                <div className="text-sm text-gray-300 font-body">Years Experience</div>
+                <div className="text-sm text-gray-300 font-body">Años de experiencia</div>
               </div>
             </motion.div>
           </div>

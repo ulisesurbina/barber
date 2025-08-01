@@ -12,7 +12,7 @@ const TestimonialsSection = () => {
       name: "Michael Rodriguez",
       title: "Business Executive",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "BarberCraft Studio transformed not just my appearance, but my confidence. The attention to detail and craftsmanship is unmatched. Every visit feels like a premium experience.",
+      quote: "The Good Style transformed not just my appearance, but my confidence. The attention to detail and craftsmanship is unmatched. Every visit feels like a premium experience.",
       rating: 5,
       service: "Executive Grooming Package",
       transformation: "Confidence & Style"
@@ -32,7 +32,7 @@ const TestimonialsSection = () => {
       name: "David Chen",
       title: "Tech Entrepreneur",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "I've been to many barbershops, but BarberCraft Studio sets the gold standard. The traditional techniques combined with modern style knowledge create exceptional results every time.",
+      quote: "I've been to many barbershops, but The Good Style sets the gold standard. The traditional techniques combined with modern style knowledge create exceptional results every time.",
       rating: 5,
       service: "Modern Classic Cut",
       transformation: "Professional Image"
@@ -52,7 +52,7 @@ const TestimonialsSection = () => {
       name: "Robert Johnson",
       title: "Financial Advisor",
       image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "What sets BarberCraft apart is their understanding that each client is unique. They take time to understand your lifestyle and create a look that works for you personally.",
+      quote: "What sets The Good Style apart is their understanding that each client is unique. They take time to understand your lifestyle and create a look that works for you personally.",
       rating: 5,
       service: "Consultation & Styling",
       transformation: "Personalized Look"
@@ -116,7 +116,7 @@ const TestimonialsSection = () => {
                   <div className="w-full h-full overflow-hidden rounded-full border-4 border-accent">
                     <Image
                       src={currentClient?.image}
-                      alt={`${currentClient?.name} - Satisfied client at BarberCraft Studio`}
+                      alt={`${currentClient?.name} - Satisfied client at The Good Style`}
                       className="w-full h-full object-cover"
                     />
                   </div>

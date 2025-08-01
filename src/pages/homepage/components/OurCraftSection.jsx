@@ -182,11 +182,10 @@ const OurCraftSection = () => {
         >
           <div className="bg-primary rounded-2xl p-8 md:p-12 text-white">
             <h3 className="font-headline text-3xl md:text-4xl font-bold mb-4">
-              Ready to Experience the Difference?
+              ¿Listo para experimentar la diferencia?
             </h3>
             <p className="font-body text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
-              Join hundreds of satisfied clients who trust BarberCraft Studio for their grooming needs. 
-              Book your transformation today.
+              Únete a cientos de clientes satisfechos que confían en The Good Style para sus necesidades de cuidado personal. Reserva tu transformación hoy mismo.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -196,7 +195,7 @@ const OurCraftSection = () => {
                 iconName="Calendar"
                 iconPosition="left"
               >
-                View All Services
+                Ver todos los servicios
               </Button>
               <Button
                 variant="outline"
@@ -205,7 +204,7 @@ const OurCraftSection = () => {
                 iconName="Phone"
                 iconPosition="left"
               >
-                Call (555) 123-4567
+                Llamar (555) 123-4567
               </Button>
             </div>
           </div>

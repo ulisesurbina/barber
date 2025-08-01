@@ -21,14 +21,13 @@ const CTASection = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-0.5 bg-accent"></div>
-                <span className="font-accent text-accent text-lg">Experience Excellence</span>
+                <span className="font-accent text-accent text-lg">Experimente la excelencia</span>
               </div>
               <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">
-                Ready to Transform Your Style?
+                ¿Estás listo para transformar tu estilo?
               </h2>
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
-                Join thousands of satisfied clients who have discovered the BarberCraft difference. 
-                Book your appointment today and experience the art of masculine grooming.
+                Únete a miles de clientes satisfechos que han descubierto la diferencia de The Good Style. Reserva tu cita hoy mismo y experimenta el arte del cuidado masculino.
               </p>
             </div>
 
@@ -39,10 +38,10 @@ const CTASection = () => {
                 </div>
                 <div>
                   <h3 className="font-headline text-lg font-bold text-primary">
-                    Easy Online Booking
+                    Reserva en línea fácil
                   </h3>
                   <p className="font-body text-muted-foreground">
-                    Schedule your appointment in just a few clicks
+                    Agenda tu cita en solo unos clics
                   </p>
                 </div>
               </div>
@@ -53,10 +52,10 @@ const CTASection = () => {
                 </div>
                 <div>
                   <h3 className="font-headline text-lg font-bold text-primary">
-                    Choose Your Master Barber
+                    Elige tu maestro barbero
                   </h3>
                   <p className="font-body text-muted-foreground">
-                    Select from our team of certified professionals
+                    Seleccione de nuestro equipo de profesionales certificados
                   </p>
                 </div>
               </div>
@@ -67,10 +66,10 @@ const CTASection = () => {
                 </div>
                 <div>
                   <h3 className="font-headline text-lg font-bold text-primary">
-                    Premium Experience
+                    Experiencia Premium
                   </h3>
                   <p className="font-body text-muted-foreground">
-                    Enjoy luxury grooming in our sophisticated studio
+                    Disfrute de un cuidado personal de lujo en nuestro sofisticado estudio.
                   </p>
                 </div>
               </div>
@@ -84,7 +83,7 @@ const CTASection = () => {
                 iconName="Calendar"
                 iconPosition="left"
               >
-                Book Your Experience
+                Reserva tu experiencia
               </Button>
               <Link to="/services">
                 <Button
@@ -94,7 +93,7 @@ const CTASection = () => {
                   iconName="Scissors"
                   iconPosition="left"
                 >
-                  View Services
+                  Ver servicios
                 </Button>
               </Link>
             </div>
@@ -104,11 +103,11 @@ const CTASection = () => {
                 <Icon name="Gift" size={20} color="var(--color-accent)" className="mt-0.5" />
                 <div>
                   <p className="font-body text-primary font-medium mb-2">
-                    First-Time Client Special
+                    Especial para nuevos clientes
                   </p>
                   <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                    New clients receive 20% off their first premium service. 
-                    Experience our craftsmanship at an exclusive introductory rate.
+                    Los nuevos clientes reciben un 20 % de descuento en su primer servicio premium.
+                    Disfrute de nuestra artesanía con una tarifa de lanzamiento exclusiva.
                   </p>
                 </div>
               </div>
@@ -126,7 +125,7 @@ const CTASection = () => {
             <div className="relative overflow-hidden rounded-3xl">
               <Image
                 src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Elegant BarberCraft Studio interior showcasing premium grooming experience"
+                alt="Elegant The Good Style interior showcasing premium grooming experience"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent"></div>
@@ -143,7 +142,7 @@ const CTASection = () => {
               <div className="text-center">
                 <Icon name="Award" size={32} color="var(--color-primary)" className="mx-auto mb-2" />
                 <p className="font-headline text-sm font-bold text-primary">Master</p>
-                <p className="font-headline text-sm font-bold text-primary">Certified</p>
+                <p className="font-headline text-sm font-bold text-primary">Certificado</p>
               </div>
             </motion.div>
 
@@ -160,7 +159,7 @@ const CTASection = () => {
                 </div>
                 <div>
                   <p className="font-headline text-lg font-bold text-primary">4.9</p>
-                  <p className="font-body text-xs text-muted-foreground">Rating</p>
+                  <p className="font-body text-xs text-muted-foreground">Clasificación</p>
                 </div>
               </div>
             </motion.div>

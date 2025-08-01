@@ -28,7 +28,7 @@ const LocationHero = () => {
             </h1>
             
             <p className="text-white/90 text-lg lg:text-xl font-body mb-8 max-w-xl">
-              Located in the heart of the city's cultural district, BarberCraft Studio is more than a destination—it's a neighborhood cornerstone where tradition meets modern sophistication.
+              Located in the heart of the city's cultural district, The Good Style is more than a destination—it's a neighborhood cornerstone where tradition meets modern sophistication.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -58,7 +58,7 @@ const LocationHero = () => {
             <div className="relative overflow-hidden rounded-2xl shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
               <Image
                 src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="BarberCraft Studio exterior view"
+                alt="The Good Style"
                 className="w-full h-96 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"></div>

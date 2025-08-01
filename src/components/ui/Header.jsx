@@ -70,9 +70,9 @@ const Header = () => {
             </div>
             <div className="hidden sm:block">
               <h1 className="font-headline text-xl font-bold text-primary group-hover:text-accent transition-colors duration-300">
-                BarberCraft
+                The Good Style
               </h1>
-              <p className="font-accent text-sm text-secondary -mt-1">Studio</p>
+              <p className="font-accent text-sm text-secondary -mt-1">Website</p>
             </div>
           </Link>
 
@@ -199,7 +199,7 @@ const Header = () => {
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
               >
                 <Icon name="Calendar" size={20} className="mr-2" />
-                Book Your Experience
+                Reserva tu experiencia
               </Button>
             </div>
           </nav>

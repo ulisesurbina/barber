@@ -300,7 +300,7 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Services - BarberCraft Studio | Premium Grooming Services</title>
+        <title>Services - The Good Style</title>
         <meta name="description" content="Discover our premium barbering services including classic cuts, signature shaves, beard services, and grooming packages. Expert craftsmanship meets modern style." />
       </Helmet>
       <Header />
@@ -542,8 +542,8 @@ const Services = () => {
                   <Icon name="Scissors" size={20} color="white" />
                 </div>
                 <div>
-                  <h3 className="font-headline text-xl font-bold">BarberCraft</h3>
-                  <p className="font-accent text-sm text-accent -mt-1">Studio</p>
+                  <h3 className="font-headline text-xl font-bold">The Good</h3>
+                  <p className="font-accent text-sm text-accent -mt-1">Style</p>
                 </div>
               </div>
               <p className="text-white/80 font-body text-sm mb-4">
@@ -566,7 +566,7 @@ const Services = () => {
               <h4 className="font-headline text-lg font-semibold mb-4">Contacto</h4>
               <ul className="space-y-2 font-body text-sm text-white/80">
                 <li>+34 912 345 678</li>
-                <li>info@barbercraftstudio.es</li>
+                <li>info@thegoodstyle.com</li>
                 <li>Calle Gran Vía, 123</li>
                 <li>28013 Madrid, España</li>
               </ul>
@@ -575,7 +575,7 @@ const Services = () => {
           
           <div className="border-t border-white/20 mt-8 pt-8 text-center">
             <p className="font-body text-sm text-white/60">
-              © {new Date()?.getFullYear()} BarberCraft Studio. Todos los derechos reservados.
+              © {new Date()?.getFullYear()} The Good Style. Todos los derechos reservados.
             </p>
           </div>
         </div>

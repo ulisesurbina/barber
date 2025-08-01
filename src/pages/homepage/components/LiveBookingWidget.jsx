@@ -76,10 +76,10 @@ const LiveBookingWidget = () => {
           className="text-center mb-12"
         >
           <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary mb-4">
-            Book Your <span className="text-gradient-gold">Experience</span>
+            Reserva tu <span className="text-gradient-gold">Experiencia</span>
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            Real-time availability with our master barbers. Choose your craftsman and secure your transformation.
+            Disponibilidad en tiempo real con nuestros maestros barberos. Elige a tu artesano y asegura tu transformación.
           </p>
         </motion.div>
 
@@ -96,7 +96,7 @@ const LiveBookingWidget = () => {
               <div className="flex items-center mb-6">
                 <Icon name="Users" size={24} className="text-accent mr-3" />
                 <h3 className="font-headline text-2xl font-semibold text-primary">
-                  Choose Your Master Barber
+                  Elige tu maestro barbero
                 </h3>
               </div>
 
@@ -132,7 +132,7 @@ const LiveBookingWidget = () => {
                         </div>
                         <p className="text-sm text-muted-foreground mb-1">{barber?.specialty}</p>
                         <div className="flex items-center justify-between">
-                          <span className="text-xs text-secondary">{barber?.experience} experience</span>
+                          <span className="text-xs text-secondary">{barber?.experience} experiencia</span>
                           <span className="text-xs text-success font-medium">{barber?.nextAvailable}</span>
                         </div>
                       </div>
@@ -154,12 +154,12 @@ const LiveBookingWidget = () => {
                 <div className="flex items-center">
                   <Icon name="Calendar" size={24} className="text-accent mr-3" />
                   <h3 className="font-headline text-2xl font-semibold text-primary">
-                    Available Times
+                    Horarios disponibles
                   </h3>
                 </div>
                 <div className="flex items-center text-sm text-success">
                   <div className="w-2 h-2 bg-success rounded-full mr-2 animate-pulse"></div>
-                  Live Updates
+                    Actualizaciones en vivo
                 </div>
               </div>
 
@@ -220,7 +220,7 @@ const LiveBookingWidget = () => {
                 iconName="ArrowRight"
                 iconPosition="right"
               >
-                {selectedBarber ? 'Continue Booking' : 'Select a Barber First'}
+                {selectedBarber ? 'Continue Booking' : 'Seleccione un Barbero Primero'}
               </Button>
             </motion.div>
           </div>

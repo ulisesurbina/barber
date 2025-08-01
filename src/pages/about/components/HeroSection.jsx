@@ -6,7 +6,6 @@ import Icon from '../../../components/AppIcon';
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-primary via-primary/95 to-secondary overflow-hidden">
-      {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-32 h-32 border-2 border-accent rounded-full"></div>
         <div className="absolute top-40 right-20 w-24 h-24 border border-accent/50 rotate-45"></div>
@@ -29,7 +28,7 @@ const HeroSection = () => {
                 className="flex items-center space-x-3"
               >
                 <div className="w-12 h-0.5 bg-accent"></div>
-                <span className="font-accent text-accent text-lg">Our Story</span>
+                <span className="font-accent text-accent text-lg">Nuestra Historia</span>
               </motion.div>
               
               <motion.h1
@@ -38,8 +37,8 @@ const HeroSection = () => {
                 transition={{ delay: 0.4, duration: 0.8 }}
                 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
               >
-                Crafting Excellence
-                <span className="block text-accent">Since 2018</span>
+                Creando excelencia en el arte
+                <span className="block text-accent">Desde 2018</span>
               </motion.h1>
               
               <motion.p
@@ -48,8 +47,7 @@ const HeroSection = () => {
                 transition={{ delay: 0.6, duration: 0.6 }}
                 className="font-body text-lg text-white/90 leading-relaxed max-w-xl"
               >
-                Where traditional barbering artistry meets contemporary style innovation. 
-                We've transformed the grooming experience into a ritual of confidence and craftsmanship.
+                Donde el arte de la barbería tradicional se fusiona con la innovación del estilo contemporáneo. Hemos transformado la experiencia del cuidado personal en un ritual de confianza y artesanía.
               </motion.p>
             </div>
 
@@ -65,7 +63,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <p className="font-body font-semibold">5+ Years</p>
-                  <p className="font-body text-sm text-white/70">Excellence</p>
+                  <p className="font-body text-sm text-white/70">Excelencia</p>
                 </div>
               </div>
               
@@ -75,7 +73,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <p className="font-body font-semibold">2000+</p>
-                  <p className="font-body text-sm text-white/70">Satisfied Clients</p>
+                  <p className="font-body text-sm text-white/70">Clientes Satisfechos</p>
                 </div>
               </div>
               
@@ -101,7 +99,7 @@ const HeroSection = () => {
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="BarberCraft Studio interior showcasing vintage barber chairs and premium tools"
+                alt="The Good Style interior showcasing vintage barber chairs and premium tools"
                 className="w-full h-[600px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
@@ -115,7 +113,7 @@ const HeroSection = () => {
               className="absolute -bottom-6 -left-6 bg-accent p-6 rounded-xl shadow-brand"
             >
               <div className="text-center">
-                <p className="font-headline text-2xl font-bold text-primary">Est.</p>
+                <p className="font-headline text-2xl font-bold text-primary">Desde</p>
                 <p className="font-headline text-3xl font-bold text-primary">2018</p>
               </div>
             </motion.div>
