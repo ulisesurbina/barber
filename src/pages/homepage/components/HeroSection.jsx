@@ -140,7 +140,8 @@ const HeroSection = () => {
         </div>
       </div>
       {/* Video Navigation Dots */}
-      <div className="hidden absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20">
+      <div className="hidden absolute bottom-8 left-1/2 transform -translate-x-1/2 space-x-3 z-20">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20"> */}
         {heroVideos?.map((_, index) => (
           <button
             key={index}
