@@ -21,39 +21,39 @@ const MasterBarbersSection = () => {
     },
     {
       id: 2,
-      name: "James Thompson",
-      title: "Senior Barber",
-      experience: "12+ Años",
-      specialties: ["Modern Fades", "Texture Styling", "Color Treatments"],
+      name: "Genoveva Canales",
+      title: "Master Barber & Founder",
+      experience: "15+ Años",
+      specialties: ["Cortes Clásicos", "Esculpido de Barba", "Afeitado con Toalla Caliente"],
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "Style is personal expression. I help clients discover their unique look and own it with confidence.",
-      background: "James specializes in contemporary cuts and innovative styling techniques. His artistic background brings creativity to traditional barbering.",
-      certifications: ["Advanced Cutting Techniques", "Color Theory Specialist", "Men\'s Grooming Expert"],
-      philosophy: "Innovation through tradition, creativity through craft."
+      quote: "Cada corte cuenta una historia. Mi trabajo es asegurarme de que sea una historia de confianza y estilo.",
+      background: "Formado en la prestigiosa Academia de Barbería de Londres y mentorizado por maestros artesanos en Italia. Marcus aporta técnicas del viejo mundo al estilizado moderno.",
+      certifications: ["Certificación de Maestro Barbero", "Técnicas Avanzadas de Afeitado", "Especialista en Cuidado de Barba"],
+      philosophy: "Precisión en cada detalle, excelencia en cada servicio."
     },
     {
       id: 3,
-      name: "Antonio Silva",
-      title: "Traditional Barber",
-      experience: "20+ Años",
-      specialties: ["Straight Razor Shaves", "Mustache Styling", "Traditional Cuts"],
+      name: "Genoveva Canales",
+      title: "Master Barber & Founder",
+      experience: "15+ Años",
+      specialties: ["Cortes Clásicos", "Esculpido de Barba", "Afeitado con Toalla Caliente"],
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "The art of barbering is passed down through generations. I'm honored to carry on this tradition.",
-      background: "Third-generation barber with roots in traditional European barbering. Antonio maintains the authentic techniques of classic grooming.",
-      certifications: ["Traditional Barbering Master", "Straight Razor Specialist", "Heritage Techniques"],
-      philosophy: "Honoring the past while serving the present."
+      quote: "Cada corte cuenta una historia. Mi trabajo es asegurarme de que sea una historia de confianza y estilo.",
+      background: "Formado en la prestigiosa Academia de Barbería de Londres y mentorizado por maestros artesanos en Italia. Marcus aporta técnicas del viejo mundo al estilizado moderno.",
+      certifications: ["Certificación de Maestro Barbero", "Técnicas Avanzadas de Afeitado", "Especialista en Cuidado de Barba"],
+      philosophy: "Precisión en cada detalle, excelencia en cada servicio."
     },
     {
       id: 4,
-      name: "David Chen",
-      title: "Styling Specialist",
-      experience: "8+ Años",
-      specialties: ["Asian Hair Techniques", "Precision Cuts", "Styling Consultation"],
+      name: "Genoveva Canales",
+      title: "Master Barber & Founder",
+      experience: "15+ Años",
+      specialties: ["Cortes Clásicos", "Esculpido de Barba", "Afeitado con Toalla Caliente"],
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "Understanding hair texture and face shape is the foundation of great styling.",
-      background: "David brings expertise in diverse hair types and cutting-edge techniques. His analytical approach ensures perfect results for every client.",
-      certifications: ["Precision Cutting Expert", "Hair Analysis Specialist", "Modern Styling Techniques"],
-      philosophy: "Science meets artistry in perfect harmony."
+      quote: "Cada corte cuenta una historia. Mi trabajo es asegurarme de que sea una historia de confianza y estilo.",
+      background: "Formado en la prestigiosa Academia de Barbería de Londres y mentorizado por maestros artesanos en Italia. Marcus aporta técnicas del viejo mundo al estilizado moderno.",
+      certifications: ["Certificación de Maestro Barbero", "Técnicas Avanzadas de Afeitado", "Especialista en Cuidado de Barba"],
+      philosophy: "Precisión en cada detalle, excelencia en cada servicio."
     }
   ];
 
