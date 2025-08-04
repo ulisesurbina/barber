@@ -9,17 +9,17 @@ const HeroSection = () => {
   const heroVideos = [
     {
       id: 1,
-      src: "../../../../public/assets/3998458-uhd_4096_2160_25fps.mp4",
+      src: "/assets/3998458-uhd_4096_2160_25fps.mp4",
       title: "Domina el trabajo con tijeras"
     },
     {
       id: 2,
-      src: "../../../../public/assets/3998516-uhd_4096_2160_25fps.mp4",
+      src: "/assets/3998516-uhd_4096_2160_25fps.mp4",
       title: "Precisión de Navaja Recta"
     },
     {
       id: 3,
-      src: "../../../../public/assets/4177957-hd_1920_1080_30fps.mp4",
+      src: "/assets/4177957-hd_1920_1080_30fps.mp4",
       title: "Ritual de toalla caliente"
     }
   ];
