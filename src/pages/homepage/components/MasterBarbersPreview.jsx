@@ -9,18 +9,18 @@ const MasterBarbersPreview = () => {
   const masterBarbers = [
     {
       id: 1,
-      name: "Marcus Rodriguez",
-      title: "Master Barber & Owner",
-      experience: "12 years",
-      specialty: "Classic Cuts & Straight Razor",
+      name: "Genoveva Canales",
+      title: "Maestra Barbera y Propietaria",
+      experience: "12 años",
+      specialty: "Cortes Clásicos y Afeitado a Navaja",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop&crop=face",
-      rating: 4.9,
+      rating: 5.0,
       completedCuts: "2,500+",
-      signature: "The Gentleman\'s Classic",
-      bio: `Marcus brings old-world craftsmanship to modern styling. Trained in traditional European techniques, he specializes in precision cuts and straight razor shaves that have made him a legend in the industry.`,
-      certifications: ["Master Barber License", "Straight Razor Certified", "European Techniques"],
-      socialProof: "Featured in GQ Magazine 2023",
-      availability: "Mon-Fri, Sat AM"
+      signature: "El Clásico del Caballero",
+      bio: `Genoveva aporta la artesanía del viejo mundo al estilo moderno. Formado en técnicas europeas tradicionales, se especializa en cortes de precisión y afeitados con navaja recta que lo han convertido en una leyenda en la industria.`,
+      certifications: ["Licencia de Maestra Barbera", "Navaja Recta Certificada", "Técnicas Europeas"],
+      socialProof: "Destacado en la revista GQ 2023",
+      availability: "Lunes-Viernes, Sábado AM"
     },
     {
       id: 2,
@@ -66,16 +66,15 @@ const MasterBarbersPreview = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-accent/10 rounded-full mb-6">
             <Icon name="Users" size={20} className="text-accent mr-2" />
-            <span className="text-accent font-body font-medium">Meet the Masters</span>
+            <span className="text-accent font-body font-medium">Conoce a los Maestros</span>
           </div>
           
           <h2 className="font-headline text-4xl md:text-6xl font-bold text-primary mb-6">
-            Master <span className="text-gradient-gold">Barbers</span>
+            Maestros <span className="text-gradient-gold">Barberos</span>
           </h2>
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our team of master craftsmen brings decades of combined experience, each with their own 
-            signature techniques and specialties that define The Good Style experience.
+            Nuestro equipo de maestros artesanos aporta décadas de experiencia combinada, cada uno con sus propias técnicas y especialidades que definen la experiencia de The Good Style.
           </p>
         </motion.div>
 
@@ -115,7 +114,7 @@ const MasterBarbersPreview = () => {
                 <div className="absolute bottom-4 left-4 right-4">
                   <div className="bg-black/40 backdrop-blur-sm rounded-lg p-3">
                     <div className="flex items-center justify-between text-white text-sm">
-                      <span>Available:</span>
+                      <span>Disponible:</span>
                       <span className="font-medium">{barber?.availability}</span>
                     </div>
                   </div>
@@ -136,11 +135,11 @@ const MasterBarbersPreview = () => {
                 <div className="grid grid-cols-2 gap-4 mb-4 p-3 bg-muted/50 rounded-lg">
                   <div className="text-center">
                     <div className="text-lg font-bold text-primary">{barber?.completedCuts}</div>
-                    <div className="text-xs text-muted-foreground">Completed</div>
+                    <div className="text-xs text-muted-foreground">Completados</div>
                   </div>
                   <div className="text-center">
                     <div className="text-lg font-bold text-accent">{barber?.rating}/5</div>
-                    <div className="text-xs text-muted-foreground">Rating</div>
+                    <div className="text-xs text-muted-foreground">Clasificación</div>
                   </div>
                 </div>
 
@@ -148,7 +147,7 @@ const MasterBarbersPreview = () => {
                 <div className="mb-4">
                   <div className="flex items-center mb-2">
                     <Icon name="Award" size={16} className="text-accent mr-2" />
-                    <span className="text-sm font-medium text-primary">Signature Service</span>
+                    <span className="text-sm font-medium text-primary">Servicios</span>
                   </div>
                   <p className="text-sm text-accent font-medium">{barber?.signature}</p>
                 </div>
@@ -171,7 +170,7 @@ const MasterBarbersPreview = () => {
                     ))}
                     {barber?.certifications?.length > 2 && (
                       <span className="px-2 py-1 bg-muted text-muted-foreground text-xs rounded-full">
-                        +{barber?.certifications?.length - 2} more
+                        +{barber?.certifications?.length - 2} más
                       </span>
                     )}
                   </div>
@@ -194,7 +193,7 @@ const MasterBarbersPreview = () => {
                     iconName="Calendar"
                     iconPosition="left"
                   >
-                    Book with {barber?.name?.split(' ')?.[0]}
+                    Reserva con {barber?.name?.split(' ')?.[0]}
                   </Button>
                   <Button
                     variant="outline"
@@ -203,7 +202,7 @@ const MasterBarbersPreview = () => {
                     iconName="User"
                     iconPosition="left"
                   >
-                    View Full Profile
+                    Ver Perfil Completo
                   </Button>
                 </div>
               </div>

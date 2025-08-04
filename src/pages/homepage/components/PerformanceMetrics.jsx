@@ -249,7 +249,7 @@ const PerformanceMetrics = () => {
               <Icon name="Quote" size={20} color="white" />
             </div>
             <div className="text-left">
-              <div className="font-semibold text-white">Marcus Rodriguez</div>
+              <div className="font-semibold text-white">Genoveva Canales</div>
               <div className="text-sm text-gray-300">Master Barber & Owner</div>
             </div>
           </div>

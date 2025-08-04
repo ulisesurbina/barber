@@ -6,46 +6,46 @@ import Icon from '../../../components/AppIcon';
 const CraftsmanshipSection = () => {
   const craftsmanshipStandards = [
     {
-      ícono: "Objetivo",
-      título: "Excelencia en Precisión",
-      descripción: "Cada corte medido a la perfección utilizando técnicas tradicionales perfeccionadas durante generaciones.",
-      métricas: "Precisión de ±1 mm"
+      icon: "Target",
+      title: "Excelencia en Precisión",
+      description: "Cada corte medido a la perfección utilizando técnicas tradicionales perfeccionadas durante generaciones.",
+      metrics: "Precisión de ±1 mm"
     },
     {
-      ícono: "Llave inglesa",
-      título: "Herramientas premium",
-      descripción: "Tijeras forjadas a mano de Japón, navajas de afeitar de Alemania y cepillos de Inglaterra.",
-      métricas: "Calidad profesional"
+      icon: "Wrench",
+      title: "Herramientas Premium",
+      description: "Tijeras forjadas a mano de Japón, navajas de afeitar de Alemania y cepillos de Inglaterra.",
+      metrics: "Calidad profesional"
     },
     {
-      ícono: "Reloj",
-      título: "Inversión de tiempo",
-      descripción: "Servicios sin prisas: cada cita recibe la atención y el tiempo que merece.",
-      métricas: "45-90 minutos"
+      icon: "Watch",
+      title: "Inversión de Tiempo",
+      description: "Servicios sin prisas: cada cita recibe la atención y el tiempo que merece.",
+      metrics: "45-90 minutos"
     },
     {
-      ícono: "Escudo",
-      título: "Control de calidad",
-      descripción: "Múltiples controles de calidad garantizan que cada cliente quede completamente satisfecho con su experiencia.",
-      métricas: "100 % de satisfacción"
+      icon: "Shield",
+      title: "Control de Calidad",
+      description: "Múltiples controles de calidad garantizan que cada cliente quede completamente satisfecho con su experiencia.",
+      metrics: "100 % de satisfacción"
     }
   ];
 
   const toolsShowcase = [
     {
-      nombre: "Tijeras de acero japonesas",
-      descripción: "Herramientas de corte de precisión forjadas a mano",
-      imagen: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      name: "Tijeras de acero japonesas",
+      description: "Herramientas de corte de precisión forjadas a mano",
+      image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
-      nombre: "Colección de navajas de afeitar",
-      descripción: "Artesanía tradicional alemana",
-      imagen: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      name: "Colección de navajas de afeitar",
+      description: "Artesanía tradicional alemana",
+      image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
-      nombre: "Cepillos de cerdas naturales",
-      descripción: "Cepillos de pelo de tejón inglés",
-      imagen: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      name: "Cepillos de cerdas naturales",
+      description: "Cepillos de pelo de tejón inglés",
+      image: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
   ];
 
@@ -113,7 +113,7 @@ const CraftsmanshipSection = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-0.5 bg-accent"></div>
-                <span className="font-accent text-accent text-lg">Herramientas premium</span>
+                <span className="font-accent text-accent text-lg">Herramientas Premium</span>
               </div>
               <h3 className="font-headline text-3xl font-bold text-primary">
                 Arsenal del Maestro
@@ -154,7 +154,7 @@ const CraftsmanshipSection = () => {
 
             <div className="bg-primary/5 p-6 rounded-xl border-l-4 border-accent">
               <div className="flex items-start space-x-3">
-                <Icon name="Info" size={20} color="var(--color-accent)" className="mt-0.5" />
+                <Icon name="Info" size={80} color="var(--color-accent)" className="mt-0.5" />
                 <div>
                   <p className="font-body text-primary font-medium mb-2">
                     Excelencia en mantenimiento de herramientas
@@ -219,8 +219,8 @@ const CraftsmanshipSection = () => {
             >
               <div className="text-center">
                 <Icon name="Award" size={32} color="var(--color-primary)" className="mx-auto mb-2" />
+                <p className="font-headline text-sm font-bold text-primary">Calidad</p>
                 <p className="font-headline text-sm font-bold text-primary">Premium</p>
-                <p className="font-headline text-sm font-bold text-primary">Quality</p>
               </div>
             </motion.div>
           </motion.div>

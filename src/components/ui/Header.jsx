@@ -9,16 +9,16 @@ const Header = () => {
   const location = useLocation();
 
   const navigationItems = [
-    { name: 'Home', path: '/homepage', icon: 'Home' },
-    { name: 'Services', path: '/services', icon: 'Scissors' },
-    { name: 'About', path: '/about', icon: 'Users' },
-    { name: 'Location', path: '/location', icon: 'MapPin' },
-    { name: 'Contact', path: '/contact', icon: 'Phone' }
+    { name: 'Inicio', path: '/homepage', icon: 'Home' },
+    { name: 'Servicios', path: '/services', icon: 'Scissors' },
+    { name: 'Sobre Nosotros', path: '/about', icon: 'Users' },
+    { name: 'Ubicación', path: '/location', icon: 'MapPin' },
+    { name: 'Contacto', path: '/contact', icon: 'Phone' }
   ];
 
-  const secondaryItems = [
-    { name: "Gentleman\'s Journal", path: '/gentleman-s-journal', icon: 'BookOpen' }
-  ];
+  // const secondaryItems = [
+  //   { name: "Gentleman\'s Journal", path: '/gentleman-s-journal', icon: 'BookOpen' }
+  // ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -101,7 +101,7 @@ const Header = () => {
             ))}
             
             {/* More Menu */}
-            <div className="relative group">
+            {/* <div className="relative group">
               <button className="flex items-center space-x-2 text-foreground hover:text-accent transition-colors duration-300 font-body font-medium">
                 <Icon name="MoreHorizontal" size={16} />
                 <span>More</span>
@@ -122,7 +122,7 @@ const Header = () => {
                   </Link>
                 ))}
               </div>
-            </div>
+            </div> */}
           </nav>
 
           {/* CTA Button */}
@@ -133,7 +133,7 @@ const Header = () => {
               className="border-accent text-accent hover:bg-accent hover:text-accent-foreground"
             >
               <Icon name="Calendar" size={16} className="mr-2" />
-              Book Now
+              Reserva Ahora
             </Button>
           </div>
 
@@ -175,7 +175,7 @@ const Header = () => {
               </Link>
             ))}
             
-            <div className="border-t border-border pt-4 mt-4">
+            {/* <div className="border-t border-border pt-4 mt-4">
               {secondaryItems?.map((item) => (
                 <Link
                   key={item?.path}
@@ -190,7 +190,7 @@ const Header = () => {
                   <span>{item?.name}</span>
                 </Link>
               ))}
-            </div>
+            </div> */}
             
             <div className="border-t border-border pt-4 mt-4">
               <Button 

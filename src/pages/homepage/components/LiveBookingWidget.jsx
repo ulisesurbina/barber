@@ -12,12 +12,12 @@ const LiveBookingWidget = () => {
   const masterBarbers = [
     {
       id: 1,
-      name: "Marcus Rodriguez",
+      name: "Genoveva Canales",
       specialty: "Classic Cuts & Straight Razor",
       experience: "12 years",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
       rating: 4.9,
-      nextAvailable: "Today 2:30 PM"
+      nextAvailable: "Hoy 2:30 PM"
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const LiveBookingWidget = () => {
       experience: "8 years",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
       rating: 4.8,
-      nextAvailable: "Today 4:15 PM"
+      nextAvailable: "Hoy 4:15 PM"
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ const LiveBookingWidget = () => {
       experience: "15 years",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
       rating: 5.0,
-      nextAvailable: "Tomorrow 10:00 AM"
+      nextAvailable: "Mañana 10:00 AM"
     }
   ];
 
@@ -220,7 +220,7 @@ const LiveBookingWidget = () => {
                 iconName="ArrowRight"
                 iconPosition="right"
               >
-                {selectedBarber ? 'Continue Booking' : 'Seleccione un Barbero Primero'}
+                {selectedBarber ? 'Continuar Reservando' : 'Seleccione un Barbero Primero'}
               </Button>
             </motion.div>
           </div>

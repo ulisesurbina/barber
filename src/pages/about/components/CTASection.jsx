@@ -21,7 +21,7 @@ const CTASection = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-0.5 bg-accent"></div>
-                <span className="font-accent text-accent text-lg">Experimente la excelencia</span>
+                <span className="font-accent text-accent text-lg">Experimente la Excelencia</span>
               </div>
               <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">
                 ¿Estás listo para transformar tu estilo?
@@ -100,7 +100,7 @@ const CTASection = () => {
 
             <div className="bg-primary/5 p-6 rounded-xl border-l-4 border-accent">
               <div className="flex items-start space-x-3">
-                <Icon name="Gift" size={20} color="var(--color-accent)" className="mt-0.5" />
+                <Icon name="Gift" size={80} color="var(--color-accent)" className="mt-0.5" />
                 <div>
                   <p className="font-body text-primary font-medium mb-2">
                     Especial para nuevos clientes
@@ -141,8 +141,8 @@ const CTASection = () => {
             >
               <div className="text-center">
                 <Icon name="Award" size={32} color="var(--color-primary)" className="mx-auto mb-2" />
-                <p className="font-headline text-sm font-bold text-primary">Master</p>
                 <p className="font-headline text-sm font-bold text-primary">Certificado</p>
+                <p className="font-headline text-sm font-bold text-primary">Master</p>
               </div>
             </motion.div>
 

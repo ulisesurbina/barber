@@ -7,23 +7,23 @@ const PhilosophySection = () => {
   const philosophyPrinciples = [
     {
       icon: "Scissors",
-      title: "Artisan Craftsmanship",
-      description: "Every cut is a masterpiece, executed with precision tools and decades of refined technique."
+      title: "Artesanía Artisan",
+      description: "Cada corte es una obra maestra, ejecutada con herramientas de precisión y décadas de técnica refinada."
     },
     {
       icon: "Heart",
-      title: "Personal Transformation",
-      description: "We believe grooming is more than appearance - it\'s about building confidence and self-expression."
+      title: "Transformación Personal",
+      description: "Creemos que el cuidado personal es más que la apariencia; se trata de construir confianza y autoexpresión."
     },
     {
       icon: "Users",
-      title: "Community Connection",
-      description: "Creating a sanctuary where modern gentlemen gather, share stories, and build lasting relationships."
+      title: "Conexión Comunitaria",
+      description: "Creando un santuario donde los caballeros modernos se reúnen, comparten historias y construyen relaciones duraderas."
     },
     {
       icon: "Crown",
-      title: "Excellence Standard",
-      description: "Uncompromising commitment to quality in every service, product, and client interaction."
+      title: "Estándar de Excelencia",
+      description: "Compromiso inquebrantable con la calidad en cada servicio, producto e interacción con el cliente."
     }
   ];
 
@@ -42,15 +42,13 @@ const PhilosophySection = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-0.5 bg-accent"></div>
-                <span className="font-accent text-accent text-lg">Our Philosophy</span>
+                <span className="font-accent text-accent text-lg">Nuestra Filosofía</span>
               </div>
               <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">
-                The Art of Masculine Grooming
+                El arte del cuidado masculino
               </h2>
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
-                At The Good Style, we believe that grooming is a ritual of transformation. 
-                Each visit is an investment in personal excellence, where traditional techniques 
-                meet contemporary style to create an experience that transcends the ordinary.
+                En The Good Style, creemos que el cuidado personal es un ritual de transformación. Cada visita es una inversión en la excelencia personal, donde las técnicas tradicionales se encuentran con el estilo contemporáneo para crear una experiencia que trasciende lo ordinario.
               </p>
             </div>
 
@@ -87,11 +85,10 @@ const PhilosophySection = () => {
               className="bg-primary/5 p-6 rounded-xl border-l-4 border-accent"
             >
               <blockquote className="font-body text-lg italic text-primary leading-relaxed">
-                "We don't just cut hair - we craft confidence, sculpt style, and create an experience 
-                that honors the timeless tradition of barbering while embracing modern innovation."
+                "No solo cortamos cabello, sino que creamos confianza, esculpimos estilo y generamos una experiencia que honra la tradición atemporal de la barbería mientras abrazamos la innovación moderna."
               </blockquote>
               <cite className="font-body text-sm text-secondary font-medium mt-3 block">
-                - Marcus Rodriguez, Master Barber & Founder
+                - Genoveva Canales, Master Barber & Founder
               </cite>
             </motion.div>
           </motion.div>
@@ -150,7 +147,7 @@ const PhilosophySection = () => {
               <div className="flex items-center space-x-3">
                 <Icon name="Quote" size={24} color="var(--color-primary)" />
                 <p className="font-body text-sm font-medium text-primary">
-                  "Tradition meets innovation in every service"
+                  "La tradición se encuentra con la innovación en cada servicio"
                 </p>
               </div>
             </motion.div>

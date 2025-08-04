@@ -6,52 +6,52 @@ const TimelineSection = () => {
   const timelineData = [
     {
       year: "2018",
-      title: "The Beginning",
-      description: "Founded with a vision to revive traditional barbering artistry in the modern world.",
+      title: "El Comienzo",
+      description: "Fundado con la visión de revivir el arte del barberismo tradicional en el mundo moderno.",
       icon: "Scissors",
-      milestone: "Studio Opening"
+      milestone: "Apertura del Estudio"
     },
     {
       year: "2019",
-      title: "Master Training",
-      description: "Our barbers completed advanced training at the International Barbering Academy in London.",
+      title: "Entrenamiento Maestro",
+      description: "Nuestros barberos completaron una formación avanzada en la Academia Internacional de Barbería en Londres.",
       icon: "GraduationCap",
-      milestone: "Certification Achieved"
+      milestone: "Certificación Alcanzada"
     },
     {
       year: "2020",
-      title: "Community Recognition",
-      description: "Awarded \'Best New Barbershop\' by the Local Business Association despite challenging times.",
+      title: "Reconocimiento Comunitario",
+      description: "Premiado como 'Mejor Nueva Barbería' por la Asociación de Negocios Local a pesar de los tiempos difíciles.",
       icon: "Award",
-      milestone: "First Award"
+      milestone: "Primer premio"
     },
     {
       year: "2021",
-      title: "Expansion & Innovation",
-      description: "Introduced premium grooming services and launched our signature beard care product line.",
+      title: "Expansión e Innovación",
+      description: "Introdujimos servicios de aseo premium y lanzamos nuestra línea de productos para el cuidado de la barba.",
       icon: "TrendingUp",
-      milestone: "Service Evolution"
+      milestone: "Evolución del Servicio"
     },
     {
       year: "2022",
-      title: "Digital Transformation",
-      description: "Launched online booking platform and virtual consultation services for modern convenience.",
+      title: "Transformación Digital",
+      description: "Lanzamos una plataforma de reservas en línea y servicios de consultas virtuales para mayor comodidad moderna.",
       icon: "Smartphone",
-      milestone: "Tech Integration"
+      milestone: "Integración Tecnológica"
     },
     {
       year: "2023",
-      title: "Craftsmanship Excellence",
-      description: "Recognized as \'Master Craftsmen\' by the National Barbering Guild for exceptional artistry.",
+      title: "Excelencia en la artesanía",
+      description: "Reconocidos como 'Maestros Artesanos' por el Gremio Nacional de Barbería por su excepcional arte.",
       icon: "Crown",
-      milestone: "Master Status"
+      milestone: "Estado Maestro"
     },
     {
       year: "2024",
-      title: "Community Impact",
-      description: "Established grooming education program for underprivileged youth and local partnerships.",
+      title: "Impacto Comunitario",
+      description: "Programa de educación en peluquería establecido para jóvenes desfavorecidos y asociaciones locales.",
       icon: "Heart",
-      milestone: "Social Initiative"
+      milestone: "Iniciativa Social"
     }
   ];
 
@@ -67,15 +67,14 @@ const TimelineSection = () => {
         >
           <div className="flex items-center justify-center space-x-3 mb-4">
             <div className="w-12 h-0.5 bg-accent"></div>
-            <span className="font-accent text-accent text-lg">Our Journey</span>
+            <span className="font-accent text-accent text-lg">Nuestro Viaje</span>
             <div className="w-12 h-0.5 bg-accent"></div>
           </div>
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary mb-4">
-            Evolution of Excellence
+            Evolución de la Excelencia
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            From humble beginnings to master craftsmanship - discover how we've transformed 
-            the barbering experience through dedication, innovation, and unwavering commitment to quality.
+            Desde humildes comienzos hasta la maestría artesanal - descubre cómo hemos transformado la experiencia de barbería a través de la dedicación, la innovación y un compromiso inquebrantable con la calidad.
           </p>
         </motion.div>
 

@@ -9,18 +9,18 @@ const HeroSection = () => {
   const heroVideos = [
     {
       id: 1,
-      src: "https://videos.pexels.com/video-files/6195547/6195547-uhd_2560_1440_25fps.mp4",
-      title: "Master Scissor Work"
+      src: "../../../../public/assets/3998458-uhd_4096_2160_25fps.mp4",
+      title: "Domina el trabajo con tijeras"
     },
     {
       id: 2,
-      src: "https://videos.pexels.com/video-files/6195548/6195548-uhd_2560_1440_25fps.mp4",
-      title: "Straight Razor Precision"
+      src: "../../../../public/assets/3998516-uhd_4096_2160_25fps.mp4",
+      title: "Precisión de Navaja Recta"
     },
     {
       id: 3,
-      src: "https://videos.pexels.com/video-files/6195549/6195549-uhd_2560_1440_25fps.mp4",
-      title: "Hot Towel Ritual"
+      src: "../../../../public/assets/4177957-hd_1920_1080_30fps.mp4",
+      title: "Ritual de toalla caliente"
     }
   ];
 
@@ -65,7 +65,7 @@ const HeroSection = () => {
             >
               <span className="inline-block px-4 py-2 bg-accent/20 backdrop-blur-sm rounded-full text-accent font-body text-sm font-medium mb-4">
                 <Icon name="Scissors" size={16} className="inline mr-2" />
-                Artisans of Masculine Grooming
+                Artesanos del Aseo Masculino
               </span>
             </motion.div>
 

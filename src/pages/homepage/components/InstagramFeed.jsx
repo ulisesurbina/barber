@@ -17,7 +17,7 @@ const InstagramFeed = () => {
       comments: 18,
       timestamp: "2 hours ago",
       hashtags: ["#TheGoodStyle", "#FreshCut", "#BeardTrim", "#Confidence"],
-      barber: "Marcus Rodriguez"
+      barber: "Genoveva Canales"
     },
     {
       id: 2,
@@ -57,7 +57,7 @@ const InstagramFeed = () => {
       comments: 11,
       timestamp: "1 day ago",
       hashtags: ["#Pompadour", "#Classic", "#Timeless", "#Style"],
-      barber: "Marcus Rodriguez"
+      barber: "Genoveva Canales"
     },
     {
       id: 6,

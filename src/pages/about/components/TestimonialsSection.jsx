@@ -10,52 +10,52 @@ const TestimonialsSection = () => {
     {
       id: 1,
       name: "Michael Rodriguez",
-      title: "Business Executive",
+      title: "Ejecutivo de Negocios",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "The Good Style transformed not just my appearance, but my confidence. The attention to detail and craftsmanship is unmatched. Every visit feels like a premium experience.",
+      quote: "The Good Style transformó no solo mi apariencia, sino también mi confianza. La atención al detalle y la artesanía son incomparables. Cada visita se siente como una experiencia premium.",
       rating: 5,
-      service: "Executive Grooming Package",
-      transformation: "Confidence & Style"
+      service: "Paquete de Aseo Ejecutivo",
+      transformation: "Confianza y Estilo"
     },
     {
       id: 2,
       name: "James Thompson",
-      title: "Creative Director",
+      title: "Director Creativo",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "The master barbers here understand that grooming is an art form. They don't just cut hair - they craft a look that perfectly matches your personality and lifestyle.",
+      quote: "Los maestros barberos aquí entienden que el cuidado personal es una forma de arte. No solo cortan el cabello, sino que crean un aspecto que coincide perfectamente con tu personalidad y estilo de vida.",
       rating: 5,
-      service: "Signature Cut & Style",
-      transformation: "Personal Expression"
+      service: "Corte y Estilo de Firma",
+      transformation: "Expresión Personal"
     },
     {
       id: 3,
       name: "David Chen",
-      title: "Tech Entrepreneur",
+      title: "Empresario Tecnológico",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "I've been to many barbershops, but The Good Style sets the gold standard. The traditional techniques combined with modern style knowledge create exceptional results every time.",
+      quote: "He estado en muchas barberías, pero The Good Style establece el estándar de oro. Las técnicas tradicionales combinadas con el conocimiento del estilo moderno crean resultados excepcionales cada vez.",
       rating: 5,
-      service: "Modern Classic Cut",
-      transformation: "Professional Image"
+      service: "Corte Clásico Moderno",
+      transformation: "Imagen Profesional"
     },
     {
       id: 4,
       name: "Antonio Silva",
-      title: "Marketing Manager",
+      title: "Gerente de Marketing",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "The hot towel shave experience is incredible - it\'s like stepping back in time to when grooming was a ritual. The attention to detail and luxury feel make it worth every penny.",
+      quote: "La experiencia de afeitarse con toalla caliente es increíble - es como retroceder en el tiempo a cuando el cuidado personal era un ritual. La atención al detalle y la sensación de lujo hacen que valga cada centavo.",
       rating: 5,
-      service: "Traditional Hot Towel Shave",
-      transformation: "Luxury Experience"
+      service: "Afeitado tradicional con toalla caliente",
+      transformation: "Experiencia de Lujo"
     },
     {
       id: 5,
       name: "Robert Johnson",
-      title: "Financial Advisor",
+      title: "Asesor Financiera",
       image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "What sets The Good Style apart is their understanding that each client is unique. They take time to understand your lifestyle and create a look that works for you personally.",
+      quote: "Lo que distingue a The Good Style es su comprensión de que cada cliente es único. Se toman el tiempo para entender tu estilo de vida y crear un look que funcione para ti personalmente.",
       rating: 5,
-      service: "Consultation & Styling",
-      transformation: "Personalized Look"
+      service: "Consulta y Estilo",
+      transformation: "Aspecto Personalizado"
     }
   ];
 
@@ -89,14 +89,14 @@ const TestimonialsSection = () => {
         >
           <div className="flex items-center justify-center space-x-3 mb-4">
             <div className="w-12 h-0.5 bg-accent"></div>
-            <span className="font-accent text-accent text-lg">Client Stories</span>
+            <span className="font-accent text-accent text-lg">Historias de Clientes</span>
             <div className="w-12 h-0.5 bg-accent"></div>
           </div>
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-white mb-4">
-            Transformation Stories
+            Historias de Transformación
           </h2>
           <p className="font-body text-lg text-white/90 max-w-2xl mx-auto">
-            Discover how our craftsmanship has transformed confidence and style for our valued clients.
+            Descubre cómo nuestra artesanía ha transformado la confianza y el estilo de nuestros valiosos clientes.
           </p>
         </motion.div>
 
@@ -178,7 +178,7 @@ const TestimonialsSection = () => {
                 className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors duration-300"
                 aria-label="Previous testimonial"
               >
-                <Icon name="ChevronLeft" size={20} color="white" />
+                <Icon name="ChevronLeft" size={40} color="white" />
               </button>
 
               {/* Dots Indicator */}
@@ -201,7 +201,7 @@ const TestimonialsSection = () => {
                 className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors duration-300"
                 aria-label="Next testimonial"
               >
-                <Icon name="ChevronRight" size={20} color="white" />
+                <Icon name="ChevronRight" size={40} color="white" />
               </button>
             </div>
           </div>
@@ -219,21 +219,21 @@ const TestimonialsSection = () => {
                 <Icon name="Users" size={28} color="var(--color-accent)" />
               </div>
               <p className="font-headline text-3xl font-bold text-white mb-2">2000+</p>
-              <p className="font-body text-white/80">Happy Clients</p>
+              <p className="font-body text-white/80">Clientes Satisfechos</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-accent/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <Icon name="Star" size={28} color="var(--color-accent)" />
               </div>
               <p className="font-headline text-3xl font-bold text-white mb-2">4.9</p>
-              <p className="font-body text-white/80">Average Rating</p>
+              <p className="font-body text-white/80">Calificación Promedio</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-accent/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <Icon name="Repeat" size={28} color="var(--color-accent)" />
               </div>
               <p className="font-headline text-3xl font-bold text-white mb-2">95%</p>
-              <p className="font-body text-white/80">Return Rate</p>
+              <p className="font-body text-white/80">Tasa de Devolución</p>
             </div>
           </motion.div>
         </div>

@@ -7,23 +7,23 @@ const CommunitySection = () => {
   const communityInitiatives = [
     {
       icon: "GraduationCap",
-      title: "Grooming Education Program",
-      description: "Free grooming workshops for underprivileged youth, teaching confidence through self-care.",
-      impact: "200+ students trained",
+      title: "Programa de Educación sobre el Cuidado Personal",
+      description: "Talleres de aseo gratuitos para jóvenes desfavorecidos, enseñando confianza a través del autocuidado.",
+      impact: "Más de 200 estudiantes capacitados",
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       icon: "Handshake",
-      title: "Local Business Partnerships",
-      description: "Collaborating with local businesses to support community growth and economic development.",
-      impact: "15+ partnerships",
+      title: "Asociaciones de Negocios Locales",
+      description: "Colaborando con negocios locales para apoyar el crecimiento comunitario y el desarrollo económico.",
+      impact: "Más de 15 asociaciones",
       image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
       icon: "Heart",
-      title: "Charity Drives",
-      description: "Regular fundraising events and donation drives supporting local charities and causes.",
-      impact: "$25,000+ raised",
+      title: "Campañas de Caridad",
+      description: "Eventos regulares de recaudación de fondos y campañas de donación que apoyan a organizaciones benéficas y causas locales.",
+      impact: "Más de $25,000 recaudados",
       image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
   ];
@@ -31,27 +31,27 @@ const CommunitySection = () => {
   const awards = [
     {
       year: "2024",
-      title: "Community Excellence Award",
-      organization: "City Chamber of Commerce",
-      description: "Recognition for outstanding community service and local impact."
+      title: "Premio a la Excelencia Comunitaria",
+      organization: "Cámara de Comercio de la Ciudad",
+      description: "Reconocimiento por un servicio comunitario destacado y un impacto local."
     },
     {
       year: "2023",
-      title: "Best New Business",
-      organization: "Local Business Association",
-      description: "Awarded for exceptional service quality and customer satisfaction."
+      title: "Mejor Nuevo Negocio",
+      organization: "Asociación de Negocios Locales",
+      description: "Otorgado por la calidad excepcional del servicio y la satisfacción del cliente."
     },
     {
       year: "2023",
-      title: "Master Craftsmen Certification",
-      organization: "National Barbering Guild",
-      description: "Highest level of recognition for barbering excellence and artistry."
+      title: "Certificación de Maestros Artesanos",
+      organization: "Gremio Nacional de Barbería",
+      description: "El nivel más alto de reconocimiento por la excelencia y el arte del barberismo."
     },
     {
       year: "2022",
-      title: "Innovation in Grooming",
-      organization: "Professional Barbers Alliance",
-      description: "Recognition for blending traditional techniques with modern innovation."
+      title: "Innovación en el Cuidado Personal",
+      organization: "Alianza de Barberos Profesionales",
+      description: "Reconocimiento por combinar técnicas tradicionales con innovación moderna."
     }
   ];
 
@@ -68,15 +68,14 @@ const CommunitySection = () => {
         >
           <div className="flex items-center justify-center space-x-3 mb-4">
             <div className="w-12 h-0.5 bg-accent"></div>
-            <span className="font-accent text-accent text-lg">Community Impact</span>
+            <span className="font-accent text-accent text-lg">Impacto en la Comunidad</span>
             <div className="w-12 h-0.5 bg-accent"></div>
           </div>
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary mb-4">
-            Beyond the Chair
+            Más allá de la Silla
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            We believe in giving back to the community that supports us. 
-            Our initiatives focus on education, partnership, and positive social impact.
+            Creemos en retribuir a la comunidad que nos apoya. Nuestras iniciativas se centran en la educación, la asociación y el impacto social positivo.
           </p>
         </motion.div>
 
@@ -134,14 +133,13 @@ const CommunitySection = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-0.5 bg-accent"></div>
-                <span className="font-accent text-accent text-lg">Recognition</span>
+                <span className="font-accent text-accent text-lg">Reconocimiento</span>
               </div>
               <h3 className="font-headline text-3xl font-bold text-primary">
-                Awards & Certifications
+                Premios y Certificaciones
               </h3>
               <p className="font-body text-lg text-muted-foreground leading-relaxed">
-                Our commitment to excellence has been recognized by industry leaders 
-                and community organizations alike.
+                Nuestro compromiso con la excelencia ha sido reconocido tanto por líderes de la industria como por organizaciones comunitarias.
               </p>
             </div>
 
@@ -231,8 +229,8 @@ const CommunitySection = () => {
             >
               <div className="text-center">
                 <Icon name="Heart" size={32} color="var(--color-primary)" className="mx-auto mb-2" />
-                <p className="font-headline text-sm font-bold text-primary">Community</p>
-                <p className="font-headline text-sm font-bold text-primary">First</p>
+                <p className="font-headline text-sm font-bold text-primary">Premios &</p>
+                <p className="font-headline text-sm font-bold text-primary">Certificados</p>
               </div>
             </motion.div>
           </motion.div>

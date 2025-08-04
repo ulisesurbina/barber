@@ -10,36 +10,36 @@ const OurCraftSection = () => {
   const signatureServices = [
     {
       id: 1,
-      title: "Classic Cut & Shave",
-      description: "Traditional barbering at its finest with precision scissor work and straight razor mastery",
+      title: "Corte y Afeitado Clásico",
+      description: "Barbería tradicional en su máxima expresión con trabajo de tijera preciso y maestría en la navaja.",
       beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=300&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=300&fit=crop",
       icon: "Scissors",
       duration: "45 min",
-      price: "From $65",
-      features: ["Hot towel treatment", "Straight razor finish", "Styling consultation", "Premium products"]
+      price: "Desde $65",
+      features: ["Tratamiento con toalla caliente", "Acabado con navaja recta", "Consulta de estilo", "Productos premium"]
     },
     {
       id: 2,
-      title: "Beard Sculpting",
-      description: "Artistic beard shaping and grooming that complements your facial structure perfectly",
+      title: "Esculpido de barba",
+      description: "El estilo y cuidado de barba artística que complementa perfectamente la estructura de tu rostro.",
       beforeImage: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&h=300&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=300&fit=crop",
       icon: "Zap",
       duration: "30 min",
-      price: "From $45",
-      features: ["Precision trimming", "Shape consultation", "Beard oil treatment", "Styling tips"]
+      price: "Desde $45",
+      features: ["Corte de precisión", "Consulta de forma", "Tratamiento de aceite para barba", "Consejos de estilo"]
     },
     {
       id: 3,
-      title: "Gentleman\'s Grooming",
-      description: "Complete grooming experience including facial treatments and premium styling",
+      title: "Aseo de Caballero",
+      description: "Experiencia de cuidado completo que incluye tratamientos faciales y peinados premium.",
       beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=300&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=300&fit=crop",
       icon: "Crown",
       duration: "75 min",
-      price: "From $95",
-      features: ["Full service cut", "Hot towel facial", "Eyebrow trim", "Luxury finish"]
+      price: "Desde $95",
+      features: ["Corte de servicio completo", "Facial con toalla caliente", "Recorte de cejas", "Acabado de lujo"]
     }
   ];
 
@@ -55,16 +55,15 @@ const OurCraftSection = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-accent/10 rounded-full mb-6">
             <Icon name="Award" size={20} className="text-accent mr-2" />
-            <span className="text-accent font-body font-medium">Signature Services</span>
+            <span className="text-accent font-body font-medium">Nuestros Servicios</span>
           </div>
           
           <h2 className="font-headline text-4xl md:text-6xl font-bold text-primary mb-6">
-            Our <span className="text-gradient-gold">Craft</span>
+            Nuestro <span className="text-gradient-gold">Arte</span>
           </h2>
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Each service is a masterpiece of traditional technique and modern innovation, 
-            delivered by artisans who understand that great grooming is both art and science.
+            Cada servicio es una obra maestra de técnica tradicional e innovación moderna, entregada por artesanos que entienden que un gran cuidado personal es tanto un arte como una ciencia.
           </p>
         </motion.div>
 
@@ -115,7 +114,7 @@ const OurCraftSection = () => {
                         ? 'bg-accent text-accent-foreground' 
                         : 'bg-white/20 text-white backdrop-blur-sm'
                     }`}>
-                      {hoveredService === service?.id ? 'After' : 'Before'}
+                      {hoveredService === service?.id ? 'Después' : 'Antes'}
                     </span>
                   </div>
                 </div>
@@ -127,7 +126,7 @@ const OurCraftSection = () => {
                   className="absolute inset-0 flex items-center justify-center"
                 >
                   <div className="bg-black/40 backdrop-blur-sm px-4 py-2 rounded-full">
-                    <span className="text-white text-sm font-medium">Hover to see transformation</span>
+                    <span className="text-white text-sm font-medium">Pasa el Mouse Para Ver la Transformación</span>
                   </div>
                 </motion.div>
               </div>
@@ -165,7 +164,7 @@ const OurCraftSection = () => {
                   iconName="ArrowRight"
                   iconPosition="right"
                 >
-                  Book This Service
+                  Reserva este Servicio
                 </Button>
               </div>
             </motion.div>

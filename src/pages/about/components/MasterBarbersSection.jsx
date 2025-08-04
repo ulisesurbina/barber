@@ -9,21 +9,21 @@ const MasterBarbersSection = () => {
   const masterBarbers = [
     {
       id: 1,
-      name: "Marcus Rodriguez",
+      name: "Genoveva Canales",
       title: "Master Barber & Founder",
-      experience: "15+ Years",
-      specialties: ["Classic Cuts", "Beard Sculpting", "Hot Towel Shaves"],
+      experience: "15+ Años",
+      specialties: ["Cortes Clásicos", "Esculpido de Barba", "Afeitado con Toalla Caliente"],
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      quote: "Every cut tells a story. My job is to make sure it\'s a story of confidence and style.",
-      background: "Trained at the prestigious London Barbering Academy and mentored under master craftsmen in Italy. Marcus brings old-world techniques to modern styling.",
-      certifications: ["Master Barber Certification", "Advanced Shaving Techniques", "Beard Care Specialist"],
-      philosophy: "Precision in every detail, excellence in every service."
+      quote: "Cada corte cuenta una historia. Mi trabajo es asegurarme de que sea una historia de confianza y estilo.",
+      background: "Formado en la prestigiosa Academia de Barbería de Londres y mentorizado por maestros artesanos en Italia. Marcus aporta técnicas del viejo mundo al estilizado moderno.",
+      certifications: ["Certificación de Maestro Barbero", "Técnicas Avanzadas de Afeitado", "Especialista en Cuidado de Barba"],
+      philosophy: "Precisión en cada detalle, excelencia en cada servicio."
     },
     {
       id: 2,
       name: "James Thompson",
       title: "Senior Barber",
-      experience: "12+ Years",
+      experience: "12+ Años",
       specialties: ["Modern Fades", "Texture Styling", "Color Treatments"],
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       quote: "Style is personal expression. I help clients discover their unique look and own it with confidence.",
@@ -35,7 +35,7 @@ const MasterBarbersSection = () => {
       id: 3,
       name: "Antonio Silva",
       title: "Traditional Barber",
-      experience: "20+ Years",
+      experience: "20+ Años",
       specialties: ["Straight Razor Shaves", "Mustache Styling", "Traditional Cuts"],
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       quote: "The art of barbering is passed down through generations. I'm honored to carry on this tradition.",
@@ -47,7 +47,7 @@ const MasterBarbersSection = () => {
       id: 4,
       name: "David Chen",
       title: "Styling Specialist",
-      experience: "8+ Years",
+      experience: "8+ Años",
       specialties: ["Asian Hair Techniques", "Precision Cuts", "Styling Consultation"],
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       quote: "Understanding hair texture and face shape is the foundation of great styling.",
@@ -71,15 +71,14 @@ const MasterBarbersSection = () => {
         >
           <div className="flex items-center justify-center space-x-3 mb-4">
             <div className="w-12 h-0.5 bg-accent"></div>
-            <span className="font-accent text-accent text-lg">Meet Our Team</span>
+            <span className="font-accent text-accent text-lg">Conoce a Nuestro Equipo</span>
             <div className="w-12 h-0.5 bg-accent"></div>
           </div>
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary mb-4">
-            Master Craftsmen
+            Maestros Artesanos
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our team of master barbers brings decades of combined experience, 
-            each with unique specialties and unwavering commitment to excellence.
+            Nuestro equipo de maestros barberos aporta décadas de experiencia combinada, cada uno con especialidades únicas y un compromiso inquebrantable con la excelencia.
           </p>
         </motion.div>
 
@@ -163,7 +162,7 @@ const MasterBarbersSection = () => {
                       {currentBarber?.title}
                     </p>
                     <p className="font-body text-accent font-semibold">
-                      {currentBarber?.experience} Experience
+                      {currentBarber?.experience} Experiencia
                     </p>
                   </div>
 
@@ -176,7 +175,7 @@ const MasterBarbersSection = () => {
 
                   <div>
                     <h4 className="font-headline text-lg font-bold text-primary mb-3">
-                      Specialties
+                      Especialidades
                     </h4>
                     <div className="flex flex-wrap gap-2">
                       {currentBarber?.specialties?.map((specialty, index) => (
@@ -192,7 +191,7 @@ const MasterBarbersSection = () => {
 
                   <div>
                     <h4 className="font-headline text-lg font-bold text-primary mb-3">
-                      Philosophy
+                      Filosofía
                     </h4>
                     <p className="font-body text-muted-foreground leading-relaxed">
                       {currentBarber?.philosophy}
@@ -206,7 +205,7 @@ const MasterBarbersSection = () => {
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h4 className="font-headline text-lg font-bold text-primary mb-3">
-                      Background
+                      Historia
                     </h4>
                     <p className="font-body text-muted-foreground leading-relaxed">
                       {currentBarber?.background}
@@ -214,7 +213,7 @@ const MasterBarbersSection = () => {
                   </div>
                   <div>
                     <h4 className="font-headline text-lg font-bold text-primary mb-3">
-                      Certifications
+                      Certificaciones
                     </h4>
                     <ul className="space-y-2">
                       {currentBarber?.certifications?.map((cert, index) => (

@@ -12,54 +12,54 @@ const TestimonialCarousel = () => {
     {
       id: 1,
       name: "Michael Chen",
-      role: "Business Executive",
+      role: "Ejecutivo de Negocios",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
       beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=400&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
       rating: 5,
-      quote: `The transformation was incredible. Marcus didn't just cut my hair, he understood my lifestyle and created a look that works perfectly for my professional image. The attention to detail and craftsmanship is unmatched.`,
-      service: "Executive Grooming Package",
-      date: "2 weeks ago",
-      confidence: "Confidence boosted by 200%"
+      quote: `La transformación fue increíble. Marcus no solo me cortó el cabello, comprendió mi estilo de vida y creó un look que funciona perfectamente para mi imagen profesional. La atención al detalle y la artesanía son inigualables.`,
+      service: "Paquete de Aseo Ejecutivo",
+      date: "Hace 2 semanas",
+      confidence: "Confianza aumentada en un 200%"
     },
     {
       id: 2,
       name: "David Rodriguez",
-      role: "Creative Director",
+      role: "Director Creativo",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
       beforeImage: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=400&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
       rating: 5,
-      quote: `James transformed my entire look with his beard sculpting expertise. The precision and artistry he brings to his work is phenomenal. I've never felt more confident about my appearance.`,
-      service: "Beard Sculpting & Style",
-      date: "1 month ago",
-      confidence: "Style confidence through the roof"
+      quote: `James transformó toda mi apariencia con su experiencia en el esculpido de barbas. La precisión y el arte que aporta a su trabajo son fenomenales. Nunca me he sentido tan confiado acerca de mi apariencia.`,
+      service: "Esculpido y Estilo de Barba",
+      date: "Hace 1 mes",
+      confidence: "Confianza en el estilo por las nubes"
     },
     {
       id: 3,
       name: "Robert Thompson",
-      role: "Entrepreneur",
+      role: "Empresario",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
       beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=400&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
       rating: 5,
-      quote: `Antonio's gentleman's grooming service is an experience like no other. The hot towel treatment, precision cutting, and overall atmosphere make this my go-to place for important meetings and events.`,
-      service: "Gentleman\'s Grooming Experience",
-      date: "3 weeks ago",
-      confidence: "Ready to conquer the world"
+      quote: `El servicio de aseo masculino de Antonio es una experiencia como ninguna otra. El tratamiento con toalla caliente, el corte de precisión y la atmósfera general hacen de este mi lugar favorito para reuniones y eventos importantes.`,
+      service: "Experiencia de Afeitado para Caballeros",
+      date: "Hace 3 semanas",
+      confidence: "Listo para conquistar el mundo"
     },
     {
       id: 4,
       name: "Alex Martinez",
-      role: "Marketing Manager",
+      role: "Gerente de Marketing",
       avatar: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&h=150&fit=crop&crop=face",
       beforeImage: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=400&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
       rating: 5,
-      quote: `The team at The Good Style doesn't just provide a service, they create an experience. Every visit leaves me feeling refreshed, confident, and ready to take on any challenge.`,
-      service: "Classic Cut & Shave",
-      date: "1 week ago",
-      confidence: "Feeling like a new person"
+      quote: `El equipo de The Good Style no solo ofrece un servicio, crean una experiencia. Cada visita me deja sintiéndome renovado, seguro y listo para enfrentar cualquier desafío.`,
+      service: "Corte y Afeitado Clásico",
+      date: "Hace 1 semana",
+      confidence: "Sintiendo como si fuera una nueva persona"
     }
   ];
 
@@ -99,16 +99,15 @@ const TestimonialCarousel = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-accent/10 rounded-full mb-6">
             <Icon name="MessageCircle" size={20} className="text-accent mr-2" />
-            <span className="text-accent font-body font-medium">Client Transformations</span>
+            <span className="text-accent font-body font-medium">Transformaciones de Clientes</span>
           </div>
           
           <h2 className="font-headline text-4xl md:text-6xl font-bold text-primary mb-6">
-            Confidence <span className="text-gradient-gold">Stories</span>
+            Historias de <span className="text-gradient-gold">Confianza</span>
           </h2>
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real transformations, real confidence boosts. See how our master barbers have helped 
-            clients discover their best selves.
+            Transformaciones reales, aumentos de confianza reales. Ve cómo nuestros maestros barberos han ayudado a los clientes a descubrir su mejor versión.
           </p>
         </motion.div>
 
@@ -133,7 +132,7 @@ const TestimonialCarousel = () => {
                         className="w-full h-80 object-cover rounded-2xl"
                       />
                       <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-sm px-3 py-1 rounded-full">
-                        <span className="text-white text-sm font-medium">Before</span>
+                        <span className="text-white text-sm font-medium">Antes</span>
                       </div>
                     </div>
                     <div className="relative">
@@ -143,7 +142,7 @@ const TestimonialCarousel = () => {
                         className="w-full h-80 object-cover rounded-2xl"
                       />
                       <div className="absolute top-4 left-4 bg-accent/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                        <span className="text-white text-sm font-medium">After</span>
+                        <span className="text-white text-sm font-medium">Después</span>
                       </div>
                     </div>
                   </div>
@@ -189,7 +188,7 @@ const TestimonialCarousel = () => {
                   <div className="space-y-3">
                     <div className="flex items-center text-sm">
                       <Icon name="Scissors" size={16} className="text-accent mr-2" />
-                      <span className="text-muted-foreground">Service: </span>
+                      <span className="text-muted-foreground">Servicio: </span>
                       <span className="text-primary font-medium ml-1">{currentData?.service}</span>
                     </div>
                     <div className="flex items-center text-sm">

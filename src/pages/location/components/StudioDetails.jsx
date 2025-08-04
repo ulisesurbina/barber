@@ -48,10 +48,10 @@ const StudioDetails = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-headline text-3xl lg:text-4xl font-bold text-primary mb-4">
-            Studio Information
+            Información del Estudio
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Everything you need to know for your visit to The Good Style
+            Todo lo que necesitas saber para tu visita a The Good Style
           </p>
         </div>
 
@@ -61,7 +61,7 @@ const StudioDetails = () => {
             <div>
               <h3 className="font-headline text-2xl font-semibold text-primary mb-6 flex items-center">
                 <Icon name="Info" size={24} className="mr-3 text-accent" />
-                Contact Details
+                Detalles de Contacto
               </h3>
               
               <div className="space-y-6">
@@ -88,20 +88,20 @@ const StudioDetails = () => {
             {/* Quick Actions */}
             <div className="bg-accent/5 rounded-xl p-6">
               <h4 className="font-headline text-lg font-semibold text-primary mb-4">
-                Quick Actions
+                Acciones Rápidas
               </h4>
               <div className="grid grid-cols-2 gap-3">
                 <Button variant="outline" size="sm" fullWidth iconName="Calendar">
-                  Book Now
+                  Reserva Ahora
                 </Button>
                 <Button variant="outline" size="sm" fullWidth iconName="Navigation">
-                  Directions
+                  Direcciones
                 </Button>
                 <Button variant="outline" size="sm" fullWidth iconName="Camera">
-                  Virtual Tour
+                  Visita Virtual
                 </Button>
                 <Button variant="outline" size="sm" fullWidth iconName="Share2">
-                  Share Location
+                  Compartir Ubicación
                 </Button>
               </div>
             </div>
@@ -112,7 +112,7 @@ const StudioDetails = () => {
             <div>
               <h3 className="font-headline text-2xl font-semibold text-primary mb-6 flex items-center">
                 <Icon name="Clock" size={24} className="mr-3 text-accent" />
-                Operating Hours
+                Horas de Operación
               </h3>
               
               <div className="bg-card rounded-lg p-6">
@@ -146,7 +146,7 @@ const StudioDetails = () => {
                 <div className="mt-6 pt-6 border-t border-border">
                   <div className="flex items-center space-x-2 mb-4">
                     <Icon name="Calendar" size={16} color="var(--color-accent)" />
-                    <span className="font-body font-medium text-primary">Special Hours</span>
+                    <span className="font-body font-medium text-primary">Horas Especiales</span>
                   </div>
                   <div className="space-y-2">
                     {specialHours?.map((special, index) => (
@@ -168,15 +168,15 @@ const StudioDetails = () => {
             <div className="bg-gradient-to-r from-accent/10 to-secondary/10 rounded-xl p-6 border border-accent/20">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="font-body font-semibold text-primary">Currently Open</span>
+                <span className="font-body font-semibold text-primary">Actualmente abierto</span>
               </div>
               <p className="text-muted-foreground text-sm mb-4">
-                We're ready to serve you! Walk-ins welcome, but appointments recommended.
+               ¡Estamos listos para atenderte! Se aceptan visitas sin cita, pero se recomiendan las citas.
               </p>
               <div className="flex items-center justify-between">
                 <span className="text-sm text-muted-foreground">Closes in 4 hours</span>
                 <Button variant="default" size="sm" className="bg-accent text-accent-foreground">
-                  Book Today
+                  Reserva Hoy
                 </Button>
               </div>
             </div>

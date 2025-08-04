@@ -55,10 +55,10 @@ const BeforeAfterSlider = ({ transformations }) => {
             </div>
             <div>
               <h3 className="font-headline text-xl font-bold text-foreground">
-                Client Transformations
+                Transformaciones de Clientes
               </h3>
               <p className="text-muted-foreground font-body text-sm">
-                See real results from our expert barbers
+                Vea resultados reales de nuestros barberos expertos
               </p>
             </div>
           </div>
