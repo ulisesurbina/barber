@@ -32,7 +32,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-auto w-full overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0">
         {heroVideos?.map((video, index) => (
@@ -56,14 +56,14 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 h-full flex items-center">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="max-w-4xl">
+          <div className="mt-[4rem] max-w-4xl">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="mb-6"
+              className="md:mb-6 lg:mb-6 lg:mt-6"
             >
-              <span className="inline-block px-4 py-2 bg-accent/20 backdrop-blur-sm rounded-full text-accent font-body text-sm font-medium mb-4">
+              <span className="inline-block md:px-0 lg:px-4 py-2 bg-accent/20 backdrop-blur-sm rounded-full text-accent font-body text-sm font-medium md:mb-0 lg:mb-4">
                 <Icon name="Scissors" size={16} className="inline mr-2" />
                 Artesanos del Aseo Masculino
               </span>
@@ -73,7 +73,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight"
+              className="font-headline text-2xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
             >
               Artesania
               <br />
@@ -84,7 +84,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="font-body text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl leading-relaxed"
+              className="font-body text-sm md:text-xl text-gray-200 mb-8 max-w-2xl leading-relaxed"
             >
               Donde la barbería tradicional se fusiona con la sofisticación moderna. Experimente el ritual del cuidado personal como una forma de arte, creado por maestros barberos que entienden que un gran estilo es sinónimo de tradición e innovación.
             </motion.p>
@@ -98,7 +98,7 @@ const HeroSection = () => {
               <Button 
                 variant="default" 
                 size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-4 text-lg font-semibold"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-4 md:text-sm lg:text-lg font-semibold"
                 iconName="Calendar"
                 iconPosition="left"
               >
@@ -108,7 +108,7 @@ const HeroSection = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold backdrop-blur-sm"
+                className="border-white/30 text-white hover:bg-white/10 px-8 py-4 md:text-sm lg:text-lg font-semibold backdrop-blur-sm"
                 iconName="Play"
                 iconPosition="left"
               >
@@ -121,7 +121,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.0 }}
-              className="flex flex-wrap gap-8 mt-12 pt-8 border-t border-white/20"
+              className="flex justify-center sm:justify-center md:justify-start lg:justify-start flex-wrap gap-8 mt-12 pt-8 border-t border-white/20"
             >
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">500+</div>
@@ -140,7 +140,7 @@ const HeroSection = () => {
         </div>
       </div>
       {/* Video Navigation Dots */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20">
+      <div className="hidden absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3 z-20">
         {heroVideos?.map((_, index) => (
           <button
             key={index}

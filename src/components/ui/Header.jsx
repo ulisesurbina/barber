@@ -50,7 +50,7 @@ const Header = () => {
       }`}
     >
       <div className="w-full">
-        <div className="flex items-center justify-between h-16 px-4 lg:px-8">
+        <div className="flex items-center justify-between h-16 px-4 lg:px-4">
           {/* Logo */}
           <Link 
             to="/homepage" 
@@ -89,7 +89,7 @@ const Header = () => {
               >
                 <span className="flex items-center space-x-2">
                   <Icon name={item?.icon} size={16} />
-                  <span>{item?.name}</span>
+                  <span className="whitespace-nowrap">{item?.name}</span>
                 </span>
                 <span 
                   className={`absolute -bottom-1 left-0 h-0.5 bg-accent transition-all duration-300 ${
@@ -159,7 +159,7 @@ const Header = () => {
               : 'opacity-0 invisible transform -translate-y-4'
           }`}
         >
-          <nav className="px-4 py-6 space-y-4">
+          <nav className="px-4 py-6 space-y-4 h-[calc(100vh-4rem)] flex flex-col items-center justify-center">
             {navigationItems?.map((item) => (
               <Link
                 key={item?.path}
