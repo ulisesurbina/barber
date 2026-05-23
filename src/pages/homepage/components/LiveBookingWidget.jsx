@@ -8,41 +8,40 @@ const LiveBookingWidget = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedBarber, setSelectedBarber] = useState(null);
   const [availableSlots, setAvailableSlots] = useState([]);
+  const [selectedTime, setSelectedTime] = useState(null);
 
   const masterBarbers = [
     {
       id: 1,
       name: "Genoveva Canales",
-      specialty: "Classic Cuts & Straight Razor",
-      experience: "12 years",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      specialty: "Peluquería moderna y tradicional con cortes estilo barber",
+      experience: "+20 years",
+      avatar: "/public/assets/images/genovevaperfil.png",
       rating: 4.9,
-      nextAvailable: "Hoy 2:30 PM"
-    },
-    {
-      id: 2,
-      name: "James Thompson",
-      specialty: "Beard Sculpting & Modern Styles",
-      experience: "8 years",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      rating: 4.8,
-      nextAvailable: "Hoy 4:15 PM"
-    },
-    {
-      id: 3,
-      name: "Antonio Silva",
-      specialty: "Gentleman\'s Grooming & Hot Towel",
-      experience: "15 years",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-      rating: 5.0,
-      nextAvailable: "Mañana 10:00 AM"
+      nextAvailable: "Preguntar para agendar"
     }
+    // {
+    //   id: 2,
+    //   name: "James Thompson",
+    //   specialty: "Beard Sculpting & Modern Styles",
+    //   experience: "8 years",
+    //   avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    //   rating: 4.8,
+    //   nextAvailable: "Hoy 4:15 PM"
+    // },
+    // {
+    //   id: 3,
+    //   name: "Antonio Silva",
+    //   specialty: "Gentleman\'s Grooming & Hot Towel",
+    //   experience: "15 years",
+    //   avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    //   rating: 5.0,
+    //   nextAvailable: "Mañana 10:00 AM"
+    // }
   ];
 
   const timeSlots = [
-    "9:00 AM", "9:30 AM", "10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM",
-    "2:00 PM", "2:30 PM", "3:00 PM", "3:30 PM", "4:00 PM", "4:30 PM",
-    "5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM"
+    "12:00 PM", "12:30 PM", "1:00 PM", "1:30 PM", "2:00 PM", "2:30 PM", "3:00 PM", "3:30 PM", "4:00 PM", "4:30 PM", "5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:30 PM", "9:00 PM", "9:30 PM", "10:00 PM", "10:30 PM", "11:00 PM", "11:30 PM"
   ];
 
   useEffect(() => {
@@ -58,7 +57,7 @@ const LiveBookingWidget = () => {
   }, [selectedDate, selectedBarber]);
 
   const formatDate = (date) => {
-    return date?.toLocaleDateString('en-US', { 
+    return date?.toLocaleDateString('es-MX', { 
       weekday: 'long', 
       month: 'long', 
       day: 'numeric' 
@@ -76,10 +75,10 @@ const LiveBookingWidget = () => {
           className="text-center mb-12"
         >
           <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary mb-4">
-            Reserva tu <span className="text-gradient-gold">Experiencia</span>
+            Reserva tu <span className="text-gradient-gold">Servicio</span>
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            Disponibilidad en tiempo real con nuestros maestros barberos. Elige a tu artesano y asegura tu transformación.
+            Barberos expertos, atención personalizada y citas sin complicaciones.
           </p>
         </motion.div>
 
@@ -96,7 +95,7 @@ const LiveBookingWidget = () => {
               <div className="flex items-center mb-6">
                 <Icon name="Users" size={24} className="text-accent mr-3" />
                 <h3 className="font-headline text-2xl font-semibold text-primary">
-                  Elige tu maestro barbero
+                  Elige tu Miss Barber
                 </h3>
               </div>
 
@@ -119,7 +118,7 @@ const LiveBookingWidget = () => {
                           alt={barber?.name}
                           className="w-16 h-16 rounded-full object-cover"
                         />
-                        <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-success rounded-full border-2 border-white"></div>
+                        <div className="absolute -bottom-1 right-11 w-5 h-5 bg-success rounded-full border-2 border-white"></div>
                       </div>
                       
                       <div className="flex-1">
@@ -159,7 +158,7 @@ const LiveBookingWidget = () => {
                 </div>
                 <div className="flex items-center text-sm text-success">
                   <div className="w-2 h-2 bg-success rounded-full mr-2 animate-pulse"></div>
-                    Actualizaciones en vivo
+                    Sujetos a confirmación
                 </div>
               </div>
 
@@ -183,7 +182,7 @@ const LiveBookingWidget = () => {
                             : 'bg-muted text-muted-foreground hover:bg-muted/80'
                         }`}
                       >
-                        {offset === 0 ? 'Today' : offset === 1 ? 'Tomorrow' : date?.toLocaleDateString('en-US', { weekday: 'short', day: 'numeric' })}
+                        {offset === 0 ? 'Hoy' : offset === 1 ? 'Mañana' : date?.toLocaleDateString('es-MX', { weekday: 'short', day: 'numeric' })}
                       </button>
                     );
                   })}
@@ -192,17 +191,19 @@ const LiveBookingWidget = () => {
 
               <div className="grid grid-cols-3 gap-3 mb-6">
                 {timeSlots?.map((slot) => {
-                  const isAvailable = availableSlots?.includes(slot);
+                  const isAvailable = true;
+                  const isSelected = selectedTime === slot;
+
                   return (
                     <motion.button
                       key={slot}
-                      whileHover={isAvailable ? { scale: 1.05 } : {}}
-                      whileTap={isAvailable ? { scale: 0.95 } : {}}
-                      disabled={!isAvailable}
-                      className={`p-3 rounded-lg text-sm font-medium transition-all duration-200 ${
-                        isAvailable
-                          ? 'bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground border border-accent/20'
-                          : 'bg-muted/50 text-muted-foreground cursor-not-allowed opacity-50'
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      onClick={() => setSelectedTime(slot)}
+                      className={`p-3 rounded-lg text-sm font-medium transition-all duration-200 border ${
+                        isSelected
+                          ? 'bg-accent text-accent-foreground border-accent scale-105'
+                          : 'bg-accent/10 text-accent hover:bg-accent hover:text-accent-foreground border-accent/20'
                       }`}
                     >
                       {slot}
@@ -215,12 +216,26 @@ const LiveBookingWidget = () => {
                 variant="default"
                 size="lg"
                 fullWidth
-                disabled={!selectedBarber}
+                disabled={!selectedBarber || !selectedTime}
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
                 iconName="ArrowRight"
                 iconPosition="right"
+                onClick={() => {
+                  const message = `Hola, quisiera saber si ¿hay servicio disponible para el ${formatDate(selectedDate)} a las ${selectedTime} con ${selectedBarber?.name}?`;
+
+                  window.open(
+                    `https://wa.me/525512327063?text=${encodeURIComponent(message)}`,
+                    '_blank'
+                  );
+
+                  setSelectedBarber(null);
+                  setSelectedTime(null);
+                  setSelectedDate(new Date());
+                }}
               >
-                {selectedBarber ? 'Continuar Reservando' : 'Seleccione un Barbero Primero'}
+                {selectedBarber && selectedTime
+                  ? 'Reservar cita por WhatsApp'
+                  : 'Seleccione barbero y horario'}
               </Button>
             </motion.div>
           </div>

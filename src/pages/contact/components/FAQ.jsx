@@ -36,7 +36,7 @@ const FAQ = () => {
       questions: [
         {
           question: "¿Cómo puedo cancelar o reprogramar mi cita?",
-          answer: `Puedes cancelar o reprogramar tu cita de varias formas:\n\n• Online: A través de nuestro sistema de reservas 24/7\n• WhatsApp: +34 612 345 678\n• Teléfono: +34 912 345 678\n\nSolicita cambios con al menos 4 horas de anticipación para evitar cargos. Cancelaciones de último minuto pueden tener una tarifa de €10.`
+          answer: `Puedes cancelar o reprogramar tu cita de varias formas:\n\n• Online: A través de nuestro sistema de reservas 24/7\n• WhatsApp: 55 1232 7063\n• Teléfono: 55 1232 7063\n\nSolicita cambios con al menos 4 horas de anticipación para evitar cargos. Cancelaciones de último minuto pueden tener una tarifa de €10.`
         },
         {
           question: "¿Puedo reservar con un barbero específico?",
@@ -143,14 +143,14 @@ const FAQ = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
-              onClick={() => window.open('https://wa.me/34612345678', '_blank')}
+              onClick={() => window.open('https://wa.me/5512327063', '_blank')}
               className="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200 font-body font-medium"
             >
               <Icon name="MessageCircle" size={18} className="mr-2" />
               WhatsApp Directo
             </button>
             <button 
-              onClick={() => window.open('tel:+34912345678', '_blank')}
+              onClick={() => window.open('tel:+525512327063', '_blank')}
               className="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-colors duration-200 font-body font-medium"
             >
               <Icon name="Phone" size={18} className="mr-2" />

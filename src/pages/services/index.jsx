@@ -486,7 +486,7 @@ const Services = () => {
                     </span>
                   </div>
                   <p className="font-body text-sm text-muted-foreground ml-7">
-                    +34 912 345 678
+                    55 1232 7063
                   </p>
                 </div>
                 
@@ -565,8 +565,8 @@ const Services = () => {
             <div>
               <h4 className="font-headline text-lg font-semibold mb-4">Contacto</h4>
               <ul className="space-y-2 font-body text-sm text-white/80">
-                <li>+34 912 345 678</li>
-                <li>info@thegoodstyle.com</li>
+                <li>55 1232 7063</li>
+                <li>gcfcanales@gmail.com</li>
                 <li>Calle Gran Vía, 123</li>
                 <li>28013 Madrid, España</li>
               </ul>

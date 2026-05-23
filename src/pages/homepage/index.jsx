@@ -92,7 +92,7 @@ const Homepage = () => {
                   </div>
                   <div>
                     <p className="text-accent font-medium">(555) 123-4567</p>
-                    <p>info@thegoodstyle.com</p>
+                    <p>gcfcanales@gmail.com</p>
                   </div>
                   <div>
                     <p className="font-medium">Hours:</p>

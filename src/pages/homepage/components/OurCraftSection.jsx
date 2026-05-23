@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 import Button from '../../../components/ui/Button';
@@ -7,39 +8,41 @@ import Button from '../../../components/ui/Button';
 const OurCraftSection = () => {
   const [hoveredService, setHoveredService] = useState(null);
 
+  const navigate = useNavigate();
+
   const signatureServices = [
     {
       id: 1,
-      title: "Corte y Afeitado Clásico",
-      description: "Barbería tradicional en su máxima expresión con trabajo de tijera preciso y maestría en la navaja.",
-      beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=300&fit=crop",
-      afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=300&fit=crop",
+      title: "Corte y afeitado clásico",
+      description: "Tradición barbera y técnicas modernas combinadas para lograr un estilo limpio, fresco y bien cuidado.",
+      beforeImage: "../../../../public/assets/images/corte.jpg",
+      afterImage: "../../../../public/assets/images/corte4.jpg",
       icon: "Scissors",
       duration: "45 min",
-      price: "Desde $65",
-      features: ["Tratamiento con toalla caliente", "Acabado con navaja recta", "Consulta de estilo", "Productos premium"]
+      price: "Desde $130",
+      features: ["Corte y acabado detallado", "Ambiente profesional", "Recomendaciones de estilo", "Atención personalizada"]
     },
     {
       id: 2,
-      title: "Esculpido de barba",
-      description: "El estilo y cuidado de barba artística que complementa perfectamente la estructura de tu rostro.",
-      beforeImage: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&h=300&fit=crop",
-      afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=300&fit=crop",
+      title: "Mantenimiento de barba",
+      description: "Cada barba se trabaja con detalle y precisión para lograr un resultado natural, definido y moderno.",
+      beforeImage: "../../../../public/assets/images/corte2.jpg",
+      afterImage: "../../../../public/assets/images/corte3.jpg",
       icon: "Zap",
-      duration: "30 min",
-      price: "Desde $45",
-      features: ["Corte de precisión", "Consulta de forma", "Tratamiento de aceite para barba", "Consejos de estilo"]
+      duration: "40 min",
+      price: "Desde $130",
+      features: ["Perfilado de barba", "Consulta de forma", "Tratamiento de aceite para barba", "Consejos de estilo"]
     },
     {
       id: 3,
-      title: "Aseo de Caballero",
-      description: "Experiencia de cuidado completo que incluye tratamientos faciales y peinados premium.",
-      beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=300&fit=crop",
-      afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=300&fit=crop",
+      title: "Perfilado de cejas",
+      description: "Perfilado de cejas con precisión para lograr una apariencia más limpia, natural, definida y profesional.",
+      beforeImage: "../../../../public/assets/images/corte9.jpg",
+      afterImage: "../../../../public/assets/images/corte7.jpg",
       icon: "Crown",
-      duration: "75 min",
-      price: "Desde $95",
-      features: ["Corte de servicio completo", "Facial con toalla caliente", "Recorte de cejas", "Acabado de lujo"]
+      duration: "30 min",
+      price: "Desde $80",
+      features: ["Limpieza y definición", "Técnica profesional y detallada", "Mejora la expresión del rostro", "Servicio rápido y cómodo"]
     }
   ];
 
@@ -55,15 +58,15 @@ const OurCraftSection = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-accent/10 rounded-full mb-6">
             <Icon name="Award" size={20} className="text-accent mr-2" />
-            <span className="text-accent font-body font-medium">Nuestros Servicios</span>
+            <span className="text-accent font-body font-medium">Lo que ofrecemos</span>
           </div>
           
           <h2 className="font-headline text-4xl md:text-6xl font-bold text-primary mb-6">
-            Nuestro <span className="text-gradient-gold">Arte</span>
+            Nuestros <span className="text-gradient-gold">Servicios</span>
           </h2>
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Cada servicio es una obra maestra de técnica tradicional e innovación moderna, entregada por artesanos que entienden que un gran cuidado personal es tanto un arte como una ciencia.
+            Cada servicio está pensado para que disfrutes una buena atención, un ambiente cómodo y un resultado que te haga sentir seguro.
           </p>
         </motion.div>
 
@@ -109,12 +112,17 @@ const OurCraftSection = () => {
                 {/* Before/After Labels */}
                 <div className="absolute bottom-4 right-4">
                   <div className="flex space-x-2">
-                    <span className={`px-2 py-1 text-xs font-medium rounded-full transition-all duration-300 ${
-                      hoveredService === service?.id 
-                        ? 'bg-accent text-accent-foreground' 
-                        : 'bg-white/20 text-white backdrop-blur-sm'
-                    }`}>
-                      {hoveredService === service?.id ? 'Después' : 'Antes'}
+                    <span
+                      className={`px-2 py-1 text-xs font-medium rounded-full transition-all duration-300 flex items-center justify-center ${
+                        hoveredService === service?.id
+                          ? 'bg-accent text-accent-foreground'
+                          : 'bg-white/20 text-white backdrop-blur-sm'
+                      }`}
+                    >
+                      <Icon 
+                        name={hoveredService === service?.id ? "Sparkles" : "Camera"} 
+                        size={14} 
+                      />
                     </span>
                   </div>
                 </div>
@@ -163,8 +171,16 @@ const OurCraftSection = () => {
                   className="border-accent text-accent hover:bg-accent hover:text-accent-foreground group-hover:bg-accent group-hover:text-accent-foreground transition-all duration-300"
                   iconName="ArrowRight"
                   iconPosition="right"
+                  onClick={() => {
+                    const message = `Hola, quisiera saber si ¿hay citas disponibles para el servicio de ${service?.title}?`;
+
+                    window.open(
+                      `https://wa.me/525512327063?text=${encodeURIComponent(message)}`,
+                      '_blank'
+                    );
+                  }}
                 >
-                  Reserva este Servicio
+                  Reserva este servicio
                 </Button>
               </div>
             </motion.div>
@@ -193,6 +209,7 @@ const OurCraftSection = () => {
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
                 iconName="Calendar"
                 iconPosition="left"
+                onClick={() => navigate('/services')}
               >
                 Ver todos los servicios
               </Button>
@@ -202,8 +219,9 @@ const OurCraftSection = () => {
                 className="border-white/30 text-white hover:bg-white/10"
                 iconName="Phone"
                 iconPosition="left"
+                 onClick={() => window.location.href = 'tel:+525512327063'}
               >
-                Llamar (555) 123-4567
+                Llamar (+52) 55 1232 7063
               </Button>
             </div>
           </div>

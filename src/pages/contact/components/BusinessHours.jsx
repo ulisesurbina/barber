@@ -4,13 +4,13 @@ import Button from '../../../components/ui/Button';
 
 const BusinessHours = () => {
   const businessHours = [
-    { day: 'Lunes', hours: '9:00 - 20:00', available: true },
-    { day: 'Martes', hours: '9:00 - 20:00', available: true },
-    { day: 'Miércoles', hours: '9:00 - 20:00', available: true },
-    { day: 'Jueves', hours: '9:00 - 21:00', available: true },
-    { day: 'Viernes', hours: '9:00 - 21:00', available: true },
-    { day: 'Sábado', hours: '8:00 - 19:00', available: true },
-    { day: 'Domingo', hours: 'Cerrado', available: false }
+    { day: 'Lunes', hours: '12:00 - 20:00', available: true },
+    { day: 'Martes', hours: '12:00 - 20:00', available: true },
+    { day: 'Miércoles', hours: '12:00 - 20:00', available: true },
+    { day: 'Jueves', hours: '12:00 - 20:00', available: true },
+    { day: 'Viernes', hours: '12:00 - 20:00', available: true },
+    { day: 'Sábado', hours: '12:00 - 20:00', available: true },
+    { day: 'Domingo', hours: '12:00 - 20:00', available: false } 
   ];
 
   const specialServices = [

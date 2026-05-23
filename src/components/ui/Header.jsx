@@ -50,7 +50,7 @@ const Header = () => {
       }`}
     >
       <div className="w-full">
-        <div className="flex items-center justify-between h-16 px-4 lg:px-4">
+        <div className="flex items-center justify-between lg:justify-around h-16 px-4 lg:px-4">
           {/* Logo */}
           <Link 
             to="/homepage" 
@@ -66,7 +66,6 @@ const Header = () => {
                   className="transform group-hover:rotate-12 transition-transform duration-300" 
                 />
               </div>
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-accent rounded-full opacity-80"></div>
             </div>
             <div className="hidden sm:block">
               <h1 className="font-headline text-xl font-bold text-primary group-hover:text-accent transition-colors duration-300">
@@ -126,7 +125,7 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden lg:flex items-center space-x-4">
+          {/* <div className="hidden lg:flex items-center space-x-4">
             <Button 
               variant="outline" 
               size="sm"
@@ -135,7 +134,7 @@ const Header = () => {
               <Icon name="Calendar" size={16} className="mr-2" />
               Reserva Ahora
             </Button>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button
@@ -199,7 +198,7 @@ const Header = () => {
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
               >
                 <Icon name="Calendar" size={20} className="mr-2" />
-                Reserva tu experiencia
+                Reserva tu servicio
               </Button>
             </div>
           </nav>

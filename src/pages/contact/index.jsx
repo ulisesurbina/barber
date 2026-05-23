@@ -57,8 +57,8 @@ const Contact = () => {
               <div>
                 <h4 className="font-headline font-bold mb-4">Contacto Rápido</h4>
                 <div className="space-y-2 font-body text-white/80">
-                  <p>+34 912 345 678</p>
-                  <p>info@thegoodstyle.com</p>
+                  <p>55 1232 7063</p>
+                  <p>gcfcanales@gmail.com</p>
                   <p>Calle Gran Vía 123, Madrid</p>
                 </div>
               </div>

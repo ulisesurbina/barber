@@ -11,41 +11,41 @@ const TestimonialCarousel = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Michael Chen",
-      role: "Ejecutivo de Negocios",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      name: "Eddy KillahBwoy",
+      role: "",
+      avatar: "../../../../public/assets/images/eddy.jpg",
       beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=400&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
       rating: 5,
-      quote: `La transformación fue increíble. Marcus no solo me cortó el cabello, comprendió mi estilo de vida y creó un look que funciona perfectamente para mi imagen profesional. La atención al detalle y la artesanía son inigualables.`,
-      service: "Paquete de Aseo Ejecutivo",
-      date: "Hace 2 semanas",
+      quote: `Un cambio de imagen por Genoveva Canales, visiten Barberia The Good Style`,
+      service: "Corte y afeitado clásico",
+      date: "Abril 2022",
       confidence: "Confianza aumentada en un 200%"
     },
     {
       id: 2,
-      name: "David Rodriguez",
-      role: "Director Creativo",
+      name: "Juan Kong Rodríguez",
+      role: "Profesional MMA",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
       beforeImage: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=400&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
       rating: 5,
-      quote: `James transformó toda mi apariencia con su experiencia en el esculpido de barbas. La precisión y el arte que aporta a su trabajo son fenomenales. Nunca me he sentido tan confiado acerca de mi apariencia.`,
-      service: "Esculpido y Estilo de Barba",
-      date: "Hace 1 mes",
+      quote: `Puro estilo Barberia The Good Style 😎`,
+      service: "Corte y afeitado clásico",
+      date: "Febrero 2019",
       confidence: "Confianza en el estilo por las nubes"
     },
     {
       id: 3,
-      name: "Robert Thompson",
-      role: "Empresario",
+      name: "Gerry ElGeneral Morales",
+      role: "",
       avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
       beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=400&fit=crop",
       afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
       rating: 5,
-      quote: `El servicio de aseo masculino de Antonio es una experiencia como ninguna otra. El tratamiento con toalla caliente, el corte de precisión y la atmósfera general hacen de este mi lugar favorito para reuniones y eventos importantes.`,
-      service: "Experiencia de Afeitado para Caballeros",
-      date: "Hace 3 semanas",
+      quote: `Gracias a Barberia The Good Style por el detalle para mi carnal. Se los recomiendo raza, para que se den una shaineada`,
+      service: "Corte y afeitado clásico",
+      date: "Diciembre 2018",
       confidence: "Listo para conquistar el mundo"
     },
     {
@@ -107,7 +107,7 @@ const TestimonialCarousel = () => {
           </h2>
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto">
-            Transformaciones reales, aumentos de confianza reales. Ve cómo nuestros maestros barberos han ayudado a los clientes a descubrir su mejor versión.
+            Más que cortes de cabello, creamos experiencias donde cada cliente se siente cómodo, bien atendido y satisfecho con su resultado.
           </p>
         </motion.div>
 

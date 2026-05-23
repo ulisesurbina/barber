@@ -10,10 +10,10 @@ const ContactMethods = () => {
       description: "Habla directamente con nuestro equipo para consultas inmediatas",
       icon: "Phone",
       action: "Llamar Ahora",
-      contact: "+34 912 345 678",
-      available: "Lun-Sáb 9:00-20:00",
+      contact: "55 1232 7063",
+      available: "Lun-Dom 12:00-20:00",
       color: "bg-green-500",
-      href: "tel:+34912345678"
+      href: "tel:+525512327063"
     },
     {
       id: 2,
@@ -21,10 +21,10 @@ const ContactMethods = () => {
       description: "Envíanos tus consultas detalladas y te responderemos en 24h",
       icon: "Mail",
       action: "Enviar Email",
-      contact: "info@thegoodstyle.com",
+      contact: "gcfcanales@gmail.com",
       available: "Respuesta en 24h",
       color: "bg-blue-500",
-      href: "mailto:info@thegoodstyle.com"
+      href: "mailto:gcfcanales@gmail.com"
     },
     {
       id: 3,
@@ -32,10 +32,10 @@ const ContactMethods = () => {
       description: "Mensajería instantánea para consultas rápidas y citas",
       icon: "MessageCircle",
       action: "Abrir WhatsApp",
-      contact: "+34 612 345 678",
+      contact: "55 1232 7063",
       available: "Disponible 24/7",
       color: "bg-green-600",
-      href: "https://wa.me/34612345678"
+      href: "https://wa.me/5512327063"
     }
   ];
 
@@ -106,10 +106,10 @@ const ContactMethods = () => {
           <Button 
             variant="destructive" 
             size="sm"
-            onClick={() => window.open('tel:+34612345999', '_blank')}
+            onClick={() => window.open('tel:+525512327063', '_blank')}
           >
             <Icon name="Phone" size={16} className="mr-2" />
-            +34 612 345 999
+            55 1232 7063
           </Button>
         </div>
       </div>

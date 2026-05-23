@@ -141,7 +141,7 @@ const ContactForm = () => {
                 label="Teléfono"
                 type="tel"
                 name="phone"
-                placeholder="+34 612 345 678"
+                placeholder="55 1232 7063"
                 value={formData?.phone}
                 onChange={handleInputChange}
               />

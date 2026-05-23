@@ -13,7 +13,7 @@ const StudioDetails = () => {
     {
       icon: "Phone",
       label: "Phone",
-      value: "+34 91 234 5678",
+      value: "55 1232 7063",
       subValue: "Click to call directly"
     },
     {
@@ -25,22 +25,22 @@ const StudioDetails = () => {
     {
       icon: "MessageCircle",
       label: "WhatsApp",
-      value: "+34 612 345 678",
+      value: "55 1232 7063",
       subValue: "Quick questions & updates"
     }
   ];
 
   const operatingHours = [
-    { day: "Lunes - Viernes", hours: "9:00 AM - 8:00 PM", isToday: true },
-    { day: "Sábado", hours: "8:00 AM - 7:00 PM", isToday: false },
-    { day: "Domingo", hours: "10:00 AM - 6:00 PM", isToday: false }
+    { day: "Lunes - Viernes", hours: "12:00 PM - 11:30 PM", isToday: true },
+    { day: "Sábado", hours: "12:00 PM - 11:30 PM", isToday: false },
+    { day: "Domingo", hours: "12:00 PM - 11:30 PM", isToday: false }
   ];
 
   const specialHours = [
-    { date: "1 de Enero", hours: "Cerrado", type: "holiday" },
-    { date: "6 de Enero", hours: "10:00 AM - 4:00 PM", type: "holiday" },
-    { date: "1 de Mayo", hours: "Cerrado", type: "holiday" },
-    { date: "15 de Agosto", hours: "10:00 AM - 4:00 PM", type: "holiday" }
+    { date: "1 de Enero", hours: "12:00 PM - 08:00 PM", type: "holiday" },
+    { date: "6 de Enero", hours: "12:00 PM - 08:00 PM", type: "holiday" },
+    { date: "1 de Mayo", hours: "12:00 PM - 08:00 PM", type: "holiday" },
+    { date: "15 de Agosto", hours: "12:00 PM - 8:00 PM", type: "holiday" }
   ];
 
   return (
