@@ -16,7 +16,7 @@ const LiveBookingWidget = () => {
       name: "Genoveva Canales",
       specialty: "Peluquería moderna y tradicional con cortes estilo barber",
       experience: "+20 years",
-      avatar: "/public/assets/images/genovevaperfil.png",
+      avatar: "/assets/images/genovevaperfil.png",
       rating: 4.9,
       nextAvailable: "Preguntar para agendar"
     }
