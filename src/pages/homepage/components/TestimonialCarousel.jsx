@@ -12,10 +12,10 @@ const TestimonialCarousel = () => {
     {
       id: 1,
       name: "Eddy KillahBwoy",
-      role: "",
-      avatar: "../../../../public/assets/images/eddy.jpg",
-      beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=400&fit=crop",
-      afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
+      role: "Artista",
+      avatar: "/assets/images/eddy.jpg",
+      beforeImage: "/assets/images/corte5.jpg",
+      afterImage: "/assets/images/corte6.jpg",
       rating: 5,
       quote: `Un cambio de imagen por Genoveva Canales, visiten Barberia The Good Style`,
       service: "Corte y afeitado clásico",
@@ -26,9 +26,9 @@ const TestimonialCarousel = () => {
       id: 2,
       name: "Juan Kong Rodríguez",
       role: "Profesional MMA",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      beforeImage: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=400&fit=crop",
-      afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
+      avatar: "/assets/images/juank.jpg",
+      beforeImage: "/assets/images/corte8.jpg",
+      afterImage: "/assets/images/corte10.jpg",
       rating: 5,
       quote: `Puro estilo Barberia The Good Style 😎`,
       service: "Corte y afeitado clásico",
@@ -38,10 +38,10 @@ const TestimonialCarousel = () => {
     {
       id: 3,
       name: "Gerry ElGeneral Morales",
-      role: "",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-      beforeImage: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=400&fit=crop",
-      afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
+      role: "Cantante de Rap",
+      avatar: "/assets/images/gerry.jpg",
+      beforeImage: "/assets/images/corte11.jpg",
+      afterImage: "/assets/images/corte12.jpg",
       rating: 5,
       quote: `Gracias a Barberia The Good Style por el detalle para mi carnal. Se los recomiendo raza, para que se den una shaineada`,
       service: "Corte y afeitado clásico",
@@ -50,15 +50,15 @@ const TestimonialCarousel = () => {
     },
     {
       id: 4,
-      name: "Alex Martinez",
-      role: "Gerente de Marketing",
-      avatar: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&h=150&fit=crop&crop=face",
-      beforeImage: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=400&fit=crop",
-      afterImage: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&h=400&fit=crop",
+      name: "Oscar Jaral",
+      role: "Barbero Profesional",
+      avatar: "/assets/images/oscar.jpg",
+      beforeImage: "/assets/images/corte13.jpg",
+      afterImage: "/assets/images/corte14.jpg",
       rating: 5,
-      quote: `El equipo de The Good Style no solo ofrece un servicio, crean una experiencia. Cada visita me deja sintiéndome renovado, seguro y listo para enfrentar cualquier desafío.`,
+      quote: `The Good Style siempre presente en los mejores eventos, se reúnen grandes del estilismo `,
       service: "Corte y Afeitado Clásico",
-      date: "Hace 1 semana",
+      date: "Febrero 2019",
       confidence: "Sintiendo como si fuera una nueva persona"
     }
   ];
@@ -131,8 +131,8 @@ const TestimonialCarousel = () => {
                         alt={`${currentData?.name} before`}
                         className="w-full h-80 object-cover rounded-2xl"
                       />
-                      <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-sm px-3 py-1 rounded-full">
-                        <span className="text-white text-sm font-medium">Antes</span>
+                      <div className="absolute top-4 left-4 bg-black/60 backdrop-blur-sm px-3 py-1 rounded-full flex items-center justify-center">
+                        <Icon name="Camera" size={16} className="text-white" />
                       </div>
                     </div>
                     <div className="relative">
@@ -141,8 +141,8 @@ const TestimonialCarousel = () => {
                         alt={`${currentData?.name} after`}
                         className="w-full h-80 object-cover rounded-2xl"
                       />
-                      <div className="absolute top-4 left-4 bg-accent/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                        <span className="text-white text-sm font-medium">Después</span>
+                      <div className="absolute top-4 left-4 bg-accent/90 backdrop-blur-sm px-3 py-1 rounded-full flex items-center justify-center">
+                        <Icon name="Sparkles" size={16} className="text-white" />
                       </div>
                     </div>
                   </div>
@@ -150,7 +150,7 @@ const TestimonialCarousel = () => {
                   {/* Transformation Arrow */}
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center shadow-lg">
-                      <Icon name="ArrowRight" size={24} color="white" />
+                      <Icon name="Star" size={24} color="white" />
                     </div>
                   </div>
                 </div>

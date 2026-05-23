@@ -235,7 +235,7 @@ const LiveBookingWidget = () => {
               >
                 {selectedBarber && selectedTime
                   ? 'Reservar cita por WhatsApp'
-                  : 'Seleccione barbero y horario'}
+                  : 'Seleccione barbera y horario'}
               </Button>
             </motion.div>
           </div>

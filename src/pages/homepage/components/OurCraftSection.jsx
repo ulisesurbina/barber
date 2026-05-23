@@ -200,7 +200,7 @@ const OurCraftSection = () => {
               ¿Listo para experimentar la diferencia?
             </h3>
             <p className="font-body text-lg text-gray-200 mb-8 max-w-2xl mx-auto">
-              Únete a cientos de clientes satisfechos que confían en The Good Style para sus necesidades de cuidado personal. Reserva tu transformación hoy mismo.
+              Únete a cientos de clientes satisfechos que confían en The Good Style para sus necesidades de cuidado personal. Reserva tu servicio hoy mismo.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
