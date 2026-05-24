@@ -230,7 +230,7 @@ const TestimonialCarousel = () => {
               </div>
 
               {/* Dots Indicator */}
-              <div className="flex space-x-2">
+              <div className="flex space-x-2 px-1 py-0">
                 {testimonials?.map((_, index) => (
                   <button
                     key={index}
@@ -252,7 +252,7 @@ const TestimonialCarousel = () => {
                 className="text-muted-foreground hover:text-accent"
               >
                 <Icon name={isAutoPlaying ? "Pause" : "Play"} size={16} className="mr-2" />
-                {isAutoPlaying ? "Pause" : "Play"}
+                {isAutoPlaying ? "Pausa" : "Play"}
               </Button>
             </div>
           </div>

@@ -542,23 +542,22 @@ const Services = () => {
                   <Icon name="Scissors" size={20} color="white" />
                 </div>
                 <div>
-                  <h3 className="font-headline text-xl font-bold">The Good</h3>
-                  <p className="font-accent text-sm text-accent -mt-1">Style</p>
+                  <h3 className="font-headline text-xl font-bold">The Good Style</h3>
+                  <p className="font-accent text-sm text-accent -mt-1">Barbería & Estilo</p>
                 </div>
               </div>
               <p className="text-white/80 font-body text-sm mb-4">
-                Donde la tradición se encuentra con la innovación. 
-                Experimentamos la barbería como un arte, creando estilos únicos para el caballero moderno.
+                Un espacio dedicado al estilo, la atención personalizada y el cuidado personal. Trabajamos cada servicio con detalle para ofrecer una experiencia cómoda, profesional y adaptada a cada cliente.
               </p>
             </div>
             
             <div>
-              <h4 className="font-headline text-lg font-semibold mb-4">Servicios</h4>
+              <h4 className="font-headline text-lg font-semibold mb-4">Servicios:</h4>
               <ul className="space-y-2 font-body text-sm text-white/80">
-                <li>Cortes Clásicos</li>
-                <li>Afeitados Tradicionales</li>
-                <li>Cuidado de Barba</li>
-                <li>Paquetes Premium</li>
+                <li>Corte y afeitado clásico</li>
+                <li>Mantenimiento de barba</li>
+                <li>Perfilado de cejas</li>
+                <li>Micropigmentación</li>
               </ul>
             </div>
             
@@ -567,8 +566,8 @@ const Services = () => {
               <ul className="space-y-2 font-body text-sm text-white/80">
                 <li>55 1232 7063</li>
                 <li>gcfcanales@gmail.com</li>
-                <li>Calle Gran Vía, 123</li>
-                <li>28013 Madrid, España</li>
+                <li>Geovillas de San Isidro</li>
+                <li>La Paz, EDOMEX C.P. 56516</li>
               </ul>
             </div>
           </div>

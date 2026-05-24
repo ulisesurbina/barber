@@ -26,10 +26,10 @@ const Contact = () => {
         <main>
           <ContactHero />
           <ContactMethods />
-          <ContactForm />
-          <BusinessHours />
-          <FAQ />
-          <SocialConnect />
+          {/* <ContactForm /> */}
+          {/* <BusinessHours /> */}
+          {/* <FAQ /> */}
+          {/* <SocialConnect /> */}
         </main>
 
         {/* Footer */}
@@ -39,9 +39,9 @@ const Contact = () => {
               <div className="md:col-span-2">
                 <h3 className="font-headline text-xl font-bold mb-4">The Good Style</h3>
                 <p className="font-body text-white/80 mb-4 leading-relaxed">
-                  Donde la tradición se encuentra con la innovación. Más que una barbería, somos artesanos del estilo masculino.
+                  Un espacio donde el estilo, la atención y la experiencia se combinan para brindar un servicio auténtico y profesional.
                 </p>
-                <div className="flex space-x-4">
+                {/* <div className="flex space-x-4">
                   <button className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-accent transition-colors duration-200">
                     <span className="text-sm font-bold">IG</span>
                   </button>
@@ -51,7 +51,7 @@ const Contact = () => {
                   <button className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-accent transition-colors duration-200">
                     <span className="text-sm font-bold">TT</span>
                   </button>
-                </div>
+                </div> */}
               </div>
               
               <div>
@@ -59,16 +59,15 @@ const Contact = () => {
                 <div className="space-y-2 font-body text-white/80">
                   <p>55 1232 7063</p>
                   <p>gcfcanales@gmail.com</p>
-                  <p>Calle Gran Vía 123, Madrid</p>
+                  <p>Geovillas de San Isidro La Paz, EDOMEX C.P. 56516</p>
                 </div>
               </div>
               
               <div>
-                <h4 className="font-headline font-bold mb-4">Horarios</h4>
+                <h4 className="font-headline font-bold mb-4">Horarios:</h4>
                 <div className="space-y-2 font-body text-white/80 text-sm">
-                  <p>Lun-Vie: 9:00-20:00</p>
-                  <p>Sábado: 8:00-19:00</p>
-                  <p>Domingo: Cerrado</p>
+                  <p>Lun-Vie: 12:00PM - 11:30PM</p>
+                  <p>Sáb-Dom: 12:00PM - 11:30PM</p>
                 </div>
               </div>
             </div>

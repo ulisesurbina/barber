@@ -11,52 +11,52 @@ const PerformanceMetrics = () => {
   });
 
   const finalValues = {
-    transformations: 500,
-    retention: 98,
-    experience: 15,
+    transformations: 1000,
+    retention: 75,
+    experience: 20,
     satisfaction: 4.9
   };
 
   const metrics = [
     {
       key: 'transformations',
-      label: 'Monthly Transformations',
+      label: 'Clientes atendidos',
       value: counters?.transformations,
       suffix: '+',
       icon: 'Scissors',
       color: 'text-accent',
       bgColor: 'bg-accent/10',
-      description: 'Clients transformed every month'
+      description: 'Personas que han confiado en nuestro trabajo y estilo'
     },
     {
       key: 'retention',
-      label: 'Client Retention Rate',
+      label: 'Clientes que regresan',
       value: counters?.retention,
       suffix: '%',
       icon: 'TrendingUp',
       color: 'text-success',
       bgColor: 'bg-success/10',
-      description: 'Clients who return regularly'
+      description: 'La confianza y satisfacción nos hacen parte de su rutina'
     },
     {
       key: 'experience',
-      label: 'Years of Experience',
+      label: 'Años de experiencia',
       value: counters?.experience,
       suffix: '+',
       icon: 'Award',
       color: 'text-secondary',
       bgColor: 'bg-secondary/10',
-      description: 'Combined team expertise'
+      description: 'Experiencia enfocada en técnica, detalle y atención personalizada'
     },
     {
       key: 'satisfaction',
-      label: 'Average Rating',
+      label: 'Calificación promedio',
       value: counters?.satisfaction,
       suffix: '/5',
       icon: 'Star',
       color: 'text-warning',
       bgColor: 'bg-warning/10',
-      description: 'Client satisfaction score'
+      description: 'Opiniones reales de clientes satisfechos con cada servicio'
     }
   ];
 
@@ -113,16 +113,15 @@ const PerformanceMetrics = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-6">
             <Icon name="BarChart3" size={20} className="text-accent mr-2" />
-            <span className="text-accent font-body font-medium">Performance Excellence</span>
+            <span className="text-accent font-body font-medium">Nuestra Experiencia</span>
           </div>
           
           <h2 className="font-headline text-4xl md:text-6xl font-bold mb-6">
-            Proven <span className="text-gradient-gold">Results</span>
+            Resultados que hablan por nuestro <span className="text-gradient-gold">trabajo</span>
           </h2>
           
           <p className="font-body text-xl text-gray-200 max-w-3xl mx-auto">
-            Numbers that speak to our commitment to excellence. Every metric reflects our dedication 
-            to delivering exceptional experiences and building lasting relationships with our clients.
+             Cada número representa clientes satisfechos, estilos personalizados y la confianza que hemos construido a través de la experiencia, la atención y el detalle en cada servicio.
           </p>
         </motion.div>
 
@@ -214,20 +213,20 @@ const PerformanceMetrics = () => {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-2xl font-bold text-accent mb-1">3</div>
-              <div className="text-sm text-gray-300">Master Barbers</div>
+              <div className="text-2xl font-bold text-accent mb-1">1</div>
+              <div className="text-sm text-gray-300">Miss Barber</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-accent mb-1">2019</div>
-              <div className="text-sm text-gray-300">Established</div>
+              <div className="text-sm text-gray-300">Desde</div>
+              <div className="text-2xl font-bold text-accent mb-1">2002</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-accent mb-1">7</div>
-              <div className="text-sm text-gray-300">Days a Week</div>
+              <div className="text-sm text-gray-300">Días disponibles</div>
             </div>
             <div>
+              <div className="text-sm text-gray-300">Atención personalizada</div>
               <div className="text-2xl font-bold text-accent mb-1">100%</div>
-              <div className="text-sm text-gray-300">Satisfaction Guarantee</div>
             </div>
           </div>
         </motion.div>
@@ -241,8 +240,7 @@ const PerformanceMetrics = () => {
           className="text-center mt-16"
         >
           <blockquote className="font-headline text-2xl md:text-3xl font-medium text-gray-200 max-w-4xl mx-auto leading-relaxed">
-            "Excellence isn't just our goal—it's our standard. Every cut, every shave, 
-            every client interaction reflects our commitment to the craft."
+            "Cada cliente es diferente, por eso trabajamos cada servicio con atención, detalle y el compromiso de lograr un resultado que realmente lo haga sentir bien"
           </blockquote>
           <div className="mt-6 flex items-center justify-center space-x-3">
             <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
@@ -250,7 +248,7 @@ const PerformanceMetrics = () => {
             </div>
             <div className="text-left">
               <div className="font-semibold text-white">Genoveva Canales</div>
-              <div className="text-sm text-gray-300">Master Barber & Owner</div>
+              <div className="text-sm text-gray-300">Miss Barber & Fundadora</div>
             </div>
           </div>
         </motion.div>

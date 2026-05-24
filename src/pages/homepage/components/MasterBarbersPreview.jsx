@@ -11,47 +11,47 @@ const MasterBarbersPreview = () => {
       id: 1,
       name: "Genoveva Canales",
       title: "Maestra Barbera y Propietaria",
-      experience: "12 años",
-      specialty: "Cortes Clásicos y Afeitado a Navaja",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop&crop=face",
-      rating: 5.0,
+      experience: "20 años",
+      specialty: "Cortes clásicos, afeitado de barba y perfilado de ceja",
+      avatar: "/assets/images/genoveva2.png",
+      rating: 4.9,
       completedCuts: "2,500+",
       signature: "El Clásico del Caballero",
-      bio: `Genoveva aporta la artesanía del viejo mundo al estilo moderno. Formado en técnicas europeas tradicionales, se especializa en cortes de precisión y afeitados con navaja recta que lo han convertido en una leyenda en la industria.`,
-      certifications: ["Licencia de Maestra Barbera", "Navaja Recta Certificada", "Técnicas Europeas"],
-      socialProof: "Destacado en la revista GQ 2023",
-      availability: "Lunes-Viernes, Sábado AM"
-    },
-    {
-      id: 2,
-      name: "Genoveva Canales",
-      title: "Maestra Barbera y Propietaria",
-      experience: "12 años",
-      specialty: "Cortes Clásicos y Afeitado a Navaja",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=400&fit=crop&crop=face",
-      rating: 5.0,
-      completedCuts: "2,500+",
-      signature: "El Clásico del Caballero",
-      bio: `Genoveva aporta la artesanía del viejo mundo al estilo moderno. Formado en técnicas europeas tradicionales, se especializa en cortes de precisión y afeitados con navaja recta que lo han convertido en una leyenda en la industria.`,
-      certifications: ["Licencia de Maestra Barbera", "Navaja Recta Certificada", "Técnicas Europeas"],
-      socialProof: "Destacado en la revista GQ 2023",
-      availability: "Lunes-Viernes, Sábado AM"
-    },
-    {
-      id: 3,
-      name: "Genoveva Canales",
-      title: "Maestra Barbera y Propietaria",
-      experience: "12 años",
-      specialty: "Cortes Clásicos y Afeitado a Navaja",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=400&fit=crop&crop=face",
-      rating: 5.0,
-      completedCuts: "2,500+",
-      signature: "El Clásico del Caballero",
-      bio: `Genoveva aporta la artesanía del viejo mundo al estilo moderno. Formado en técnicas europeas tradicionales, se especializa en cortes de precisión y afeitados con navaja recta que lo han convertido en una leyenda en la industria.`,
-      certifications: ["Licencia de Maestra Barbera", "Navaja Recta Certificada", "Técnicas Europeas"],
-      socialProof: "Destacado en la revista GQ 2023",
-      availability: "Lunes-Viernes, Sábado AM"
+      bio: `Apasionada por la barbería y el cuidado personal, Genoveva trabaja cada corte con precisión, creatividad y atención personalizada.`,
+      certifications: ["Miss Barber", "Micro Pigmentadora", "Estilista profesional"],
+      socialProof: "COLMEX ESTILISMO & BARBERÍA",
+      availability: "Lunes-Domingo"
     }
+    // {
+    //   id: 2,
+    //   name: "Genoveva Canales",
+    //   title: "Maestra Barbera y Propietaria",
+    //   experience: "12 años",
+    //   specialty: "Cortes Clásicos y Afeitado a Navaja",
+    //   avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=400&fit=crop&crop=face",
+    //   rating: 5.0,
+    //   completedCuts: "2,500+",
+    //   signature: "El Clásico del Caballero",
+    //   bio: `Genoveva aporta la artesanía del viejo mundo al estilo moderno. Formado en técnicas europeas tradicionales, se especializa en cortes de precisión y afeitados con navaja recta que lo han convertido en una leyenda en la industria.`,
+    //   certifications: ["Licencia de Maestra Barbera", "Navaja Recta Certificada", "Técnicas Europeas"],
+    //   socialProof: "Destacado en la revista GQ 2023",
+    //   availability: "Lunes-Viernes, Sábado AM"
+    // },
+    // {
+    //   id: 3,
+    //   name: "Genoveva Canales",
+    //   title: "Maestra Barbera y Propietaria",
+    //   experience: "12 años",
+    //   specialty: "Cortes Clásicos y Afeitado a Navaja",
+    //   avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=400&fit=crop&crop=face",
+    //   rating: 5.0,
+    //   completedCuts: "2,500+",
+    //   signature: "El Clásico del Caballero",
+    //   bio: `Genoveva aporta la artesanía del viejo mundo al estilo moderno. Formado en técnicas europeas tradicionales, se especializa en cortes de precisión y afeitados con navaja recta que lo han convertido en una leyenda en la industria.`,
+    //   certifications: ["Licencia de Maestra Barbera", "Navaja Recta Certificada", "Técnicas Europeas"],
+    //   socialProof: "Destacado en la revista GQ 2023",
+    //   availability: "Lunes-Viernes, Sábado AM"
+    // }
   ];
 
   return (
@@ -66,7 +66,7 @@ const MasterBarbersPreview = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-accent/10 rounded-full mb-6">
             <Icon name="Users" size={20} className="text-accent mr-2" />
-            <span className="text-accent font-body font-medium">Conoce a los Maestros</span>
+            <span className="text-accent font-body font-medium">Conoce a los expertos</span>
           </div>
           
           <h2 className="font-headline text-4xl md:text-6xl font-bold text-primary mb-6">
@@ -74,7 +74,7 @@ const MasterBarbersPreview = () => {
           </h2>
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto">
-            Nuestro equipo de maestros artesanos aporta décadas de experiencia combinada, cada uno con sus propias técnicas y especialidades que definen la experiencia de The Good Style.
+            Cada integrante aporta su experiencia y estilo para ofrecer un servicio auténtico y de calidad.
           </p>
         </motion.div>
 
@@ -192,6 +192,14 @@ const MasterBarbersPreview = () => {
                     className="bg-accent text-accent-foreground hover:bg-accent/90"
                     iconName="Calendar"
                     iconPosition="left"
+                    onClick={() => {
+                      const message = `Hola, quiero reservar con la Miss Barber ${barber?.name} un servicio, ¿hay algún horario disponible?`;
+
+                      window.open(
+                        `https://wa.me/525512327063?text=${encodeURIComponent(message)}`,
+                        '_blank'
+                      );
+                    }}
                   >
                     Reserva con {barber?.name?.split(' ')?.[0]}
                   </Button>
@@ -201,6 +209,9 @@ const MasterBarbersPreview = () => {
                     className="border-accent text-accent hover:bg-accent hover:text-accent-foreground text-sm"
                     iconName="User"
                     iconPosition="left"
+                    onClick={() => {
+                      window.open('https://instagram.com/genoveva_canales', '_blank');
+                    }}
                   >
                     Ver Perfil Completo
                   </Button>
@@ -218,7 +229,7 @@ const MasterBarbersPreview = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 md:p-12 text-white">
+          {/* <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 md:p-12 text-white">
             <h3 className="font-headline text-3xl md:text-4xl font-bold mb-4">
               Conoce a tu pareja perfecta
             </h3>
@@ -247,7 +258,7 @@ const MasterBarbersPreview = () => {
                 Programar consulta
               </Button>
             </div>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </section>

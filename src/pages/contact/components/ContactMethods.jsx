@@ -11,7 +11,7 @@ const ContactMethods = () => {
       icon: "Phone",
       action: "Llamar Ahora",
       contact: "55 1232 7063",
-      available: "Lun-Dom 12:00-20:00",
+      available: "Lun-Dom 12:00PM - 11:30PM",
       color: "bg-green-500",
       href: "tel:+525512327063"
     },
@@ -31,11 +31,11 @@ const ContactMethods = () => {
       title: "WhatsApp Instant",
       description: "Mensajería instantánea para consultas rápidas y citas",
       icon: "MessageCircle",
-      action: "Abrir WhatsApp",
+      action: "Mandar WhatsApp",
       contact: "55 1232 7063",
-      available: "Disponible 24/7",
+      available: "Disponible 13/7",
       color: "bg-green-600",
-      href: "https://wa.me/5512327063"
+      href: "https://wa.me/525512327063?text=Hola%20Sra.%20Genoveva,%20quiero%20agendar%20un%20servicio%20de%20barbería."
     }
   ];
 

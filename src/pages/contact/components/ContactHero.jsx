@@ -18,11 +18,11 @@ const ContactHero = () => {
           </div>
           
           <h1 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Conecta con Nosotros
+            Contáctanos
           </h1>
           
           <p className="font-body text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Estamos aquí para responder tus preguntas, programar tu cita perfecta y ayudarte a descubrir tu mejor estilo. Tu satisfacción es nuestra prioridad.
+            Más que un corte, buscamos que cada cliente se sienta cómodo, seguro y satisfecho con su estilo. Estamos aquí para ayudarte a agendar y encontrar el servicio ideal para ti.
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 text-white/80">

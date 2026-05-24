@@ -11,63 +11,63 @@ const InstagramFeed = () => {
   const instagramPosts = [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=400&fit=crop",
-      caption: "Fresh fade and beard trim for our client Michael. That confidence boost is everything! ✂️ #TheGoodStyle #FreshCut",
+      image: "/assets/images/genoveva2.jpg",
+      caption: "Un cambio de look limpio y moderno para nuestro cliente. Cada detalle cuenta. ✂️",
       likes: 234,
       comments: 18,
-      timestamp: "2 hours ago",
-      hashtags: ["#TheGoodStyle", "#FreshCut", "#BeardTrim", "#Confidence"],
+      timestamp: "Hace 2 meses",
+      hashtags: ["#TheGoodStyle", "#Barbería", "#CorteDeCabello", "#Estilo"],
       barber: "Genoveva Canales"
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=400&fit=crop",
-      caption: "The art of the straight razor shave. Precision, tradition, and pure craftsmanship. 🪒 #StraightRazor #Tradition",
+      image: "/assets/images/competencias.jpg",
+      caption: "Precisión, detalle y un acabado pensado para resaltar el estilo de cada cliente. 💈 #BarberíaDeLujo",
       likes: 189,
       comments: 12,
-      timestamp: "5 hours ago",
-      hashtags: ["#StraightRazor", "#Tradition", "#Craftsmanship", "#BarberLife"],
-      barber: "Antonio Silva"
+      timestamp: "Hace 5 meses",
+      hashtags: ["#BarberStyle", "#Detalle", "#Estilo", "#Barbería"],
+      barber: "Genoveva Canales"
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&h=400&fit=crop",
-      caption: "Beard sculpting session with James. Every angle matters when creating the perfect shape. 🎨 #BeardSculpting",
+      image: "/assets/images/competencias2.jpg",
+      caption: "Cada corte es personalizado para lograr un resultado limpio, moderno y auténtico. ✂️ #Precision",
       likes: 156,
       comments: 9,
-      timestamp: "8 hours ago",
-      hashtags: ["#BeardSculpting", "#Precision", "#ArtOfGrooming", "#BeardGoals"],
-      barber: "James Thompson"
+      timestamp: "Hace 8 meses",
+      hashtags: ["#Corte", "#Barber", "#TheGoodStyle", "#Look"],
+      barber: "Genoveva Canales"
     },
     {
       id: 4,
-      image: "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=400&fit=crop",
-      caption: "Hot towel treatment in progress. The luxury experience that sets us apart. 🔥 #HotTowel #LuxuryGrooming",
+      image: "/assets/images/logoygeno.jpg",
+      caption: "Nos enfocamos en brindar una experiencia cómoda y un resultado que realmente te haga sentir bien. 💇‍♂️ #ExperienciaDeBarbería",
       likes: 201,
       comments: 15,
-      timestamp: "12 hours ago",
-      hashtags: ["#HotTowel", "#LuxuryGrooming", "#Relaxation", "#Premium"],
-      barber: "Antonio Silva"
+      timestamp: "Hace 12 meses",
+      hashtags: ["#Experiencia", "#Barbería", "#Estilo", "#Confianza"],
+      barber: "Genoveva Canales"
     },
     {
       id: 5,
-      image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400&h=400&fit=crop",
-      caption: "Classic pompadour styled to perfection. Timeless elegance never goes out of style. 💫 #Pompadour #Classic",
+      image: "/assets/images/logoygeno2.jpg",
+      caption: "Estilos clásicos y modernos trabajados con atención al detalle y precisión. ✂️ #CorteDeCabello",
       likes: 178,
       comments: 11,
-      timestamp: "1 day ago",
-      hashtags: ["#Pompadour", "#Classic", "#Timeless", "#Style"],
+      timestamp: "Hace 1 año",
+      hashtags: ["#Estilo", "#BarberShop", "#CorteModerno", "#TheGoodStyle"],
       barber: "Genoveva Canales"
     },
     {
       id: 6,
-      image: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=400&h=400&fit=crop",
-      caption: "Behind the scenes: The tools of our trade. Quality equipment for quality results. 🛠️ #BehindTheScenes",
+      image: "/assets/images/productos2.jpg",
+      caption: "Detrás de cada servicio hay experiencia, dedicación y pasión por el detalle. 💈 #DetrásDeLaBarbería",
       likes: 143,
       comments: 7,
-      timestamp: "1 day ago",
-      hashtags: ["#BehindTheScenes", "#Tools", "#Quality", "#Craftsmanship"],
-      barber: "James Thompson"
+      timestamp: "Hace 2 años",
+      hashtags: ["#BarberLife", "#Detalle", "#Pasión", "#Barbería"],
+      barber: "Genoveva Canales"
     }
   ];
 
@@ -118,16 +118,15 @@ const InstagramFeed = () => {
         >
           <div className="inline-flex items-center px-4 py-2 bg-accent/10 rounded-full mb-6">
             <Icon name="Instagram" size={20} className="text-accent mr-2" />
-            <span className="text-accent font-body font-medium">@TheGoodStyle</span>
+            <span className="text-accent font-body font-medium">@genoveva_canales</span>
           </div>
           
           <h2 className="font-headline text-4xl md:text-6xl font-bold text-primary mb-6">
-            Latest <span className="text-gradient-gold">Work</span>
+            Nuestro <span className="text-gradient-gold">Trabajo</span>
           </h2>
           
           <p className="font-body text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Follow our journey on Instagram to see daily transformations, behind-the-scenes content, 
-            and the artistry that defines The Good Style.
+            Mira algunos de nuestros trabajos, estilos y momentos dentro de la barbería. Cada corte refleja dedicación, atención al detalle y una experiencia personalizada.
           </p>
 
           <Button
@@ -136,8 +135,11 @@ const InstagramFeed = () => {
             className="border-accent text-accent hover:bg-accent hover:text-accent-foreground"
             iconName="Instagram"
             iconPosition="left"
+            onClick={() => {
+              window.open('https://instagram.com/genoveva_canales', '_blank');
+            }}
           >
-            Follow @TheGoodStyle
+            Síguenos en Instagram
           </Button>
         </motion.div>
 
@@ -194,20 +196,20 @@ const InstagramFeed = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
         >
           <div>
-            <div className="text-3xl font-bold text-accent mb-2">15.2K</div>
-            <div className="text-sm text-muted-foreground font-body">Followers</div>
+            <div className="text-3xl font-bold text-accent mb-2">552</div>
+            <div className="text-sm text-muted-foreground font-body">Seguidores</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-accent mb-2">1.2K</div>
+            <div className="text-3xl font-bold text-accent mb-2">3.4K</div>
             <div className="text-sm text-muted-foreground font-body">Posts</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-accent mb-2">98%</div>
-            <div className="text-sm text-muted-foreground font-body">Engagement</div>
+            <div className="text-3xl font-bold text-accent mb-2">75%</div>
+            <div className="text-sm text-muted-foreground font-body">Clientes satisfechos</div>
           </div>
           <div>
             <div className="text-3xl font-bold text-accent mb-2">4.9</div>
-            <div className="text-sm text-muted-foreground font-body">Rating</div>
+            <div className="text-sm text-muted-foreground font-body">Calificación promedio</div>
           </div>
         </motion.div>
       </div>
@@ -248,11 +250,11 @@ const InstagramFeed = () => {
                     <Icon name="Instagram" size={20} color="white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-primary">@TheGoodStyle</h4>
+                    <h4 className="font-semibold text-primary">@genoveva_canales</h4>
                     <p className="text-sm text-muted-foreground">{selectedPost?.timestamp}</p>
                   </div>
                 </div>
-                <div className="text-sm text-accent font-medium">by {selectedPost?.barber}</div>
+                <div className="text-sm text-accent font-medium">Por {selectedPost?.barber}</div>
               </div>
               
               <p className="font-body text-primary mb-4 leading-relaxed">
@@ -271,11 +273,11 @@ const InstagramFeed = () => {
                 <div className="flex items-center space-x-6">
                   <div className="flex items-center space-x-2">
                     <Icon name="Heart" size={20} className="text-accent" />
-                    <span className="text-sm font-medium">{selectedPost?.likes} likes</span>
+                    <span className="text-sm font-medium">{selectedPost?.likes} Me gusta</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Icon name="MessageCircle" size={20} className="text-muted-foreground" />
-                    <span className="text-sm font-medium">{selectedPost?.comments} comments</span>
+                    <span className="text-sm font-medium">{selectedPost?.comments} Comentarios</span>
                   </div>
                 </div>
                 <Button
@@ -284,8 +286,11 @@ const InstagramFeed = () => {
                   className="border-accent text-accent hover:bg-accent hover:text-accent-foreground"
                   iconName="ExternalLink"
                   iconPosition="right"
+                  onClick={() => {
+                    window.open('https://instagram.com/genoveva_canales', '_blank');
+                  }}
                 >
-                  View on Instagram
+                  Ver en Instagram
                 </Button>
               </div>
             </div>

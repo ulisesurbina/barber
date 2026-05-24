@@ -77,6 +77,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
+            {/* Menú desktop habilitado completo
             {navigationItems?.map((item) => (
               <Link
                 key={item?.path}
@@ -97,7 +98,46 @@ const Header = () => {
                   }`}
                 />
               </Link>
-            ))}
+            ))} */}
+
+            {navigationItems?.map((item) => {
+              const isBlocked = ['Servicios', 'Sobre Nosotros', 'Ubicación']?.includes(item?.name);
+
+              return isBlocked ? (
+                <div
+                  key={item?.path}
+                  className="relative font-body font-medium text-muted-foreground cursor-not-allowed opacity-50"
+                >
+                  <span className="flex items-center space-x-2">
+                    <Icon name={item?.icon} size={16} />
+                    <span className="whitespace-nowrap">{item?.name}</span>
+                  </span>
+                </div>
+              ) : (
+                <Link
+                  key={item?.path}
+                  to={item?.path}
+                  className={`relative font-body font-medium transition-all duration-300 group ${
+                    isActivePath(item?.path)
+                      ? 'text-accent'
+                      : 'text-foreground hover:text-accent'
+                  }`}
+                >
+                  <span className="flex items-center space-x-2">
+                    <Icon name={item?.icon} size={16} />
+                    <span className="whitespace-nowrap">{item?.name}</span>
+                  </span>
+
+                  <span
+                    className={`absolute -bottom-1 left-0 h-0.5 bg-accent transition-all duration-300 ${
+                      isActivePath(item?.path)
+                        ? 'w-full'
+                        : 'w-0 group-hover:w-full'
+                    }`}
+                  />
+                </Link>
+              );
+            })}
             
             {/* More Menu */}
             {/* <div className="relative group">
@@ -159,6 +199,7 @@ const Header = () => {
           }`}
         >
           <nav className="px-4 py-6 space-y-4 h-[calc(100vh-4rem)] flex flex-col items-center justify-center">
+            {/* Menú movil habilitadocompleto
             {navigationItems?.map((item) => (
               <Link
                 key={item?.path}
@@ -172,7 +213,35 @@ const Header = () => {
                 <Icon name={item?.icon} size={20} />
                 <span>{item?.name}</span>
               </Link>
-            ))}
+            ))} */}
+
+            {navigationItems?.map((item) => {
+              const isBlocked = ['Servicios', 'Sobre Nosotros', 'Ubicación']?.includes(item?.name);
+
+              return isBlocked ? (
+                <div
+                  key={item?.path}
+                  className="flex items-center space-x-3 p-3 rounded-lg text-muted-foreground cursor-not-allowed opacity-50"
+                >
+                  <Icon name={item?.icon} size={20} />
+                  <span>{item?.name}</span>
+                </div>
+              ) : (
+                <Link
+                  key={item?.path}
+                  to={item?.path}
+                  onClick={closeMenu}
+                  className={`flex items-center space-x-3 p-3 rounded-lg font-body font-medium transition-all duration-200 ${
+                    isActivePath(item?.path)
+                      ? 'bg-accent/10 text-accent'
+                      : 'text-foreground hover:bg-muted hover:text-accent'
+                  }`}
+                >
+                  <Icon name={item?.icon} size={20} />
+                  <span>{item?.name}</span>
+                </Link>
+              );
+            })}
             
             {/* <div className="border-t border-border pt-4 mt-4">
               {secondaryItems?.map((item) => (

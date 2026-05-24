@@ -157,7 +157,7 @@ const LiveBookingWidget = () => {
                   </h3>
                 </div>
                 <div className="flex items-center text-sm text-success">
-                  <div className="w-2 h-2 bg-success rounded-full mr-2 animate-pulse"></div>
+                  <div className="w-2 h-2 bg-success rounded-full mr-2 animate-pulse px-1 py-0"></div>
                     Sujetos a confirmación
                 </div>
               </div>
