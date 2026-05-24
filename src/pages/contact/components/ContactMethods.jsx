@@ -93,7 +93,7 @@ const ContactMethods = () => {
         </div>
 
         {/* Emergency Contact */}
-        <div className="mt-12 bg-destructive/10 border border-destructive/20 rounded-xl p-6 text-center">
+        {/* <div className="mt-12 bg-destructive/10 border border-destructive/20 rounded-xl p-6 text-center">
           <div className="flex items-center justify-center space-x-2 mb-3">
             <Icon name="AlertTriangle" size={24} color="var(--color-destructive)" />
             <h3 className="font-headline text-lg font-bold text-destructive">
@@ -111,7 +111,7 @@ const ContactMethods = () => {
             <Icon name="Phone" size={16} className="mr-2" />
             55 1232 7063
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
