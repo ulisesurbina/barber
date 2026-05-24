@@ -261,14 +261,20 @@ const Header = () => {
             </div> */}
             
             <div className="border-t border-border pt-4 mt-4">
-              <Button 
-                variant="default" 
-                fullWidth
-                className="bg-accent text-accent-foreground hover:bg-accent/90"
+              <a
+                href="https://wa.me/525512327063?text=Hola,%20quiero%20reservar%20una%20cita%20para%20un%20servicio."
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Icon name="Calendar" size={20} className="mr-2" />
-                Reserva tu servicio
-              </Button>
+                <Button 
+                  variant="default" 
+                  fullWidth
+                  className="bg-accent text-accent-foreground hover:bg-accent/90"
+                >
+                  <Icon name="Calendar" size={20} className="mr-2" />
+                  Reserva tu servicio
+                </Button>
+              </a>
             </div>
           </nav>
         </div>

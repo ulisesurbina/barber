@@ -74,11 +74,11 @@ const Homepage = () => {
 
               {/* Quick Links */}
               <div>
-                <h4 className="font-headline text-lg font-semibold mb-4">Navegación</h4>
+                <h4 className="font-headline text-lg font-semibold mb-4">Secciones</h4>
                 <ul className="space-y-2 font-body">
-                  <li><a href="/services" className="text-gray-300 hover:text-accent transition-colors">Servicios</a></li>
-                  <li><a href="/about" className="text-gray-300 hover:text-accent transition-colors">Sobre Nosotros</a></li>
-                  <li><a href="/location" className="text-gray-300 hover:text-accent transition-colors">Ubicación</a></li>
+                  <li><a href="/services"onClick={(e) => e.preventDefault()}  className="text-gray-300 opacity-50 cursor-not-allowed">Servicios</a></li>
+                  <li><a href="/about" className="text-gray-300 opacity-50 cursor-not-allowed">Sobre Nosotros</a></li>
+                  <li><a href="/location" className="text-gray-300 opacity-50 cursor-not-allowed">Ubicación</a></li>
                   <li><a href="/contact" className="text-gray-300 hover:text-accent transition-colors">Contacto</a></li>
                   {/* <li><a href="/gentleman-s-journal" className="text-gray-300 hover:text-accent transition-colors">Gentleman's Journal</a></li> */}
                 </ul>

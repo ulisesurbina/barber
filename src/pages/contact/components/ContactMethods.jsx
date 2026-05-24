@@ -35,7 +35,7 @@ const ContactMethods = () => {
       contact: "55 1232 7063",
       available: "Disponible 13/7",
       color: "bg-green-600",
-      href: "https://wa.me/525512327063?text=Hola%20Sra.%20Genoveva,%20quiero%20agendar%20un%20servicio%20de%20barbería."
+      href: "https://wa.me/525512327063?text=Hola%20sra.%20Genoveva,%20quiero%20agendar%20un%20servicio%20de%20barbería."
     }
   ];
 

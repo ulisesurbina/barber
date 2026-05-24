@@ -104,12 +104,12 @@ const HeroSection = () => {
                 iconPosition="left"
                 onClick={() =>
                   window.open(
-                    "https://wa.me/525512327063?text=Hola,%20quiero%20reservar%20una%20cita%20para%20un%20corte%20de%20cabello",
+                    "https://wa.me/525512327063?text=Hola,%20quiero%20reservar%20una%20cita%20para%20un%20servicio.",
                     "_blank",
                   )
                 }
               >
-                Reserva tu corte
+                Reserva tu servicio
               </Button>
 
               <Button
