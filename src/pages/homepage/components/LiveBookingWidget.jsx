@@ -78,7 +78,8 @@ const LiveBookingWidget = () => {
             Reserva tu <span className="text-gradient-gold">Servicio</span>
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-            Barberos expertos, atención personalizada y citas sin complicaciones.
+            Barberos expertos, atención personalizada y citas sin complicaciones. <br />
+            Servicio sin cita o con cita previa, tú decides cómo quieres reservar.
           </p>
         </motion.div>
 
