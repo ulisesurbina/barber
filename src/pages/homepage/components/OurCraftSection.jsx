@@ -13,35 +13,90 @@ const OurCraftSection = () => {
   const signatureServices = [
     {
       id: 1,
-      title: "Corte y afeitado clásico",
+      title: "Peluqueria para dama y caballero",
       description: "Tradición barbera y técnicas modernas combinadas para lograr un estilo limpio, fresco y bien cuidado.",
       beforeImage: "/assets/images/corte.jpg",
       afterImage: "/assets/images/corte4.jpg",
       icon: "Scissors",
       duration: "45 min",
-      price: "Desde $130",
+      price: "Desde $140",
       features: ["Corte y acabado detallado", "Ambiente profesional", "Recomendaciones de estilo", "Atención personalizada"]
     },
     {
       id: 2,
-      title: "Mantenimiento de barba",
+      title: "Cortes modernos y tradicionales",
       description: "Cada barba se trabaja con detalle y precisión para lograr un resultado natural, definido y moderno.",
       beforeImage: "/assets/images/corte2.jpg",
       afterImage: "/assets/images/corte3.jpg",
       icon: "Zap",
       duration: "40 min",
-      price: "Desde $130",
+      price: "Desde $140",
       features: ["Perfilado de barba", "Consulta de forma", "Tratamiento de aceite para barba", "Consejos de estilo"]
     },
     {
       id: 3,
-      title: "Perfilado de cejas",
+      title: "Colorimetría",
       description: "Perfilado de cejas con precisión para lograr una apariencia más limpia, natural, definida y profesional.",
       beforeImage: "/assets/images/corte9.jpg",
       afterImage: "/assets/images/corte7.jpg",
       icon: "Crown",
       duration: "30 min",
-      price: "Desde $80",
+      price: "Desde $140",
+      features: ["Limpieza y definición", "Técnica profesional y detallada", "Mejora la expresión del rostro", "Servicio rápido y cómodo"]
+    },
+    {
+      id: 4,
+      title: "Permacología",
+      description: "Perfilado de cejas con precisión para lograr una apariencia más limpia, natural, definida y profesional.",
+      beforeImage: "/assets/images/corte9.jpg",
+      afterImage: "/assets/images/corte7.jpg",
+      icon: "Crown",
+      duration: "30 min",
+      price: "Desde $140",
+      features: ["Limpieza y definición", "Técnica profesional y detallada", "Mejora la expresión del rostro", "Servicio rápido y cómodo"]
+    },
+    {
+      id: 5,
+      title: "Cortes a tijera",
+      description: "Perfilado de cejas con precisión para lograr una apariencia más limpia, natural, definida y profesional.",
+      beforeImage: "/assets/images/corte9.jpg",
+      afterImage: "/assets/images/corte7.jpg",
+      icon: "Crown",
+      duration: "30 min",
+      price: "Desde $140",
+      features: ["Limpieza y definición", "Técnica profesional y detallada", "Mejora la expresión del rostro", "Servicio rápido y cómodo"]
+    },
+    {
+      id: 6,
+      title: "Cortes urbanos y fade",
+      description: "Perfilado de cejas con precisión para lograr una apariencia más limpia, natural, definida y profesional.",
+      beforeImage: "/assets/images/corte9.jpg",
+      afterImage: "/assets/images/corte7.jpg",
+      icon: "Crown",
+      duration: "30 min",
+      price: "Desde $140",
+      features: ["Limpieza y definición", "Técnica profesional y detallada", "Mejora la expresión del rostro", "Servicio rápido y cómodo"]
+    },
+    {
+      id: 7,
+      title: "Ritual de afeitado",
+      description: "Perfilado de cejas con precisión para lograr una apariencia más limpia, natural, definida y profesional.",
+      beforeImage: "/assets/images/corte9.jpg",
+      afterImage: "/assets/images/corte7.jpg",
+      icon: "Crown",
+      duration: "30 min",
+      price: "Desde $140",
+      features: ["Limpieza y definición", "Técnica profesional y detallada", "Mejora la expresión del rostro", "Servicio rápido y cómodo"]
+    },
+    {
+      id: 8,
+      title: "Estilismo y más",
+      description: "Perfilado de cejas con precisión para lograr una apariencia más limpia, natural, definida y profesional.",
+      beforeImage: "/assets/images/corte9.jpg",
+      afterImage: "/assets/images/corte7.jpg",
+      icon: "Crown",
+      duration: "30 min",
+      price: "Desde $140",
       features: ["Limpieza y definición", "Técnica profesional y detallada", "Mejora la expresión del rostro", "Servicio rápido y cómodo"]
     }
   ];

@@ -110,6 +110,17 @@ const Homepage = () => {
               <p className="text-gray-300 font-body text-sm">
                 © {new Date()?.getFullYear()} The Good Style. Todos los derechos reservados.
               </p>
+              <p className="font-body text-white/50 text-xs mt-2">
+                Diseño y Desarrollo por{" "}
+                <a
+                  href="https://wa.me/5215554369655?text=Hola%20Ulises,%20vi%20tu%20trabajo%20en%20The%20Good%20Style%20y%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo%20web."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors underline"
+                >
+                  Ulises Urbina
+                </a>
+              </p>
               {/* <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#" className="text-gray-300 hover:text-accent text-sm transition-colors">Aviso de privacidad</a>
                 <a href="#" className="text-gray-300 hover:text-accent text-sm transition-colors">Términos y condiciones</a>

@@ -193,7 +193,7 @@ const InstagramFeed = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
+          className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center"
         >
           <div>
             <div className="text-3xl font-bold text-accent mb-2">552</div>
@@ -203,10 +203,10 @@ const InstagramFeed = () => {
             <div className="text-3xl font-bold text-accent mb-2">3.4K</div>
             <div className="text-sm text-muted-foreground font-body">Posts</div>
           </div>
-          <div>
+          {/* <div>
             <div className="text-3xl font-bold text-accent mb-2">75%</div>
             <div className="text-sm text-muted-foreground font-body">Clientes satisfechos</div>
-          </div>
+          </div> */}
           <div>
             <div className="text-3xl font-bold text-accent mb-2">4.9</div>
             <div className="text-sm text-muted-foreground font-body">Calificación promedio</div>

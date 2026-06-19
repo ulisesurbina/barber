@@ -11,7 +11,7 @@ const MasterBarbersPreview = () => {
       id: 1,
       name: "Genoveva Canales",
       title: "Maestra Barbera y Propietaria",
-      experience: "20 años",
+      experience: "+30 años experiencia",
       specialty: "Cortes clásicos, afeitado de barba y perfilado de ceja",
       avatar: "/assets/images/genoveva2.png",
       rating: 4.9,

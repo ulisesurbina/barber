@@ -137,19 +137,19 @@ const HeroSection = () => {
               className="flex justify-center sm:justify-center md:justify-start lg:justify-start flex-wrap gap-8 mt-12 pt-8 border-t border-white/20"
             >
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-1">100+</div>
+                <div className="text-3xl font-bold text-accent mb-1">200+</div>
                 <div className="text-sm text-gray-300 font-body">
                   Servicios mensuales
                 </div>
               </div>
-              <div className="text-center">
+              {/* <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">75%</div>
                 <div className="text-sm text-gray-300 font-body">
                   Retención de clientes
                 </div>
-              </div>
+              </div> */}
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-1">20+</div>
+                <div className="text-3xl font-bold text-accent mb-1">30+</div>
                 <div className="text-sm text-gray-300 font-body">
                   Años de experiencia
                 </div>

@@ -5,15 +5,15 @@ import Icon from '../../../components/AppIcon';
 const PerformanceMetrics = () => {
   const [counters, setCounters] = useState({
     transformations: 0,
-    retention: 0,
+    // retention: 0,
     experience: 0,
     satisfaction: 0
   });
 
   const finalValues = {
     transformations: 1000,
-    retention: 75,
-    experience: 20,
+    // retention: 75,
+    experience: 30,
     satisfaction: 4.9
   };
 
@@ -28,16 +28,16 @@ const PerformanceMetrics = () => {
       bgColor: 'bg-accent/10',
       description: 'Personas que han confiado en nuestro trabajo y estilo'
     },
-    {
-      key: 'retention',
-      label: 'Clientes que regresan',
-      value: counters?.retention,
-      suffix: '%',
-      icon: 'TrendingUp',
-      color: 'text-success',
-      bgColor: 'bg-success/10',
-      description: 'La confianza y satisfacción nos hacen parte de su rutina'
-    },
+    // {
+    //   key: 'retention',
+    //   label: 'Clientes que regresan',
+    //   value: counters?.retention,
+    //   suffix: '%',
+    //   icon: 'TrendingUp',
+    //   color: 'text-success',
+    //   bgColor: 'bg-success/10',
+    //   description: 'La confianza y satisfacción nos hacen parte de su rutina'
+    // },
     {
       key: 'experience',
       label: 'Años de experiencia',
@@ -125,7 +125,7 @@ const PerformanceMetrics = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {metrics?.map((metric, index) => (
             <motion.div
               key={metric?.key}
@@ -218,7 +218,7 @@ const PerformanceMetrics = () => {
             </div>
             <div>
               <div className="text-sm text-gray-300">Desde</div>
-              <div className="text-2xl font-bold text-accent mb-1">2002</div>
+              <div className="text-2xl font-bold text-accent mb-1">1995</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-accent mb-1">7</div>
